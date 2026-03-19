@@ -6,8 +6,5 @@ namespace Kniffel
         {
             InitializeComponent();
         }
-
-        int rahhh;
-        int rahh;
     }
 }
