@@ -8,5 +8,6 @@ namespace Kniffel
         }
 
         int rahhh;
+        int rahh;
     }
 }
