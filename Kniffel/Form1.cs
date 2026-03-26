@@ -9,7 +9,7 @@ namespace Kniffel
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            int banane = 0;
+            int test = 0;
         }
     }
 }
