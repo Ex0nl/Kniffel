@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -37,86 +38,18 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
+            this.lblAktuellerSpieler = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtSpieler1 = new System.Windows.Forms.TextBox();
+            this.txtSpieler2 = new System.Windows.Forms.TextBox();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.btnWählenEinserS1 = new System.Windows.Forms.Button();
-            this.btnWählenChanceS1 = new System.Windows.Forms.Button();
-            this.btnWählenKniffelS1 = new System.Windows.Forms.Button();
-            this.btnWählenGroßeStraßeS1 = new System.Windows.Forms.Button();
-            this.btnWählenKleineStraßeS1 = new System.Windows.Forms.Button();
-            this.btnWählenFullHouseS1 = new System.Windows.Forms.Button();
-            this.btnWählenViererpaschS1 = new System.Windows.Forms.Button();
-            this.btnWählenDreierpaschS1 = new System.Windows.Forms.Button();
-            this.btnWählenSechserS1 = new System.Windows.Forms.Button();
-            this.btnWählenFünferS1 = new System.Windows.Forms.Button();
-            this.btnWählenViererS1 = new System.Windows.Forms.Button();
-            this.btnWählenDreierS1 = new System.Windows.Forms.Button();
-            this.btnWählenZweierS1 = new System.Windows.Forms.Button();
-            this.btnWählenZweierS2 = new System.Windows.Forms.Button();
-            this.btnWählenDreierS2 = new System.Windows.Forms.Button();
-            this.btnWählenViererS2 = new System.Windows.Forms.Button();
-            this.btnWählenFünferS2 = new System.Windows.Forms.Button();
-            this.btnWählenSechserS2 = new System.Windows.Forms.Button();
-            this.btnWählenDreierpaschS2 = new System.Windows.Forms.Button();
-            this.btnWählenViererpaschS2 = new System.Windows.Forms.Button();
-            this.btnWählenFullHouseS2 = new System.Windows.Forms.Button();
-            this.btnWählenKleineStraßeS2 = new System.Windows.Forms.Button();
-            this.btnWählenGroßeStraßeS2 = new System.Windows.Forms.Button();
-            this.btnWählenKniffelS2 = new System.Windows.Forms.Button();
-            this.btnWählenChanceS2 = new System.Windows.Forms.Button();
-            this.btnWählenEinserS2 = new System.Windows.Forms.Button();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.btnWürfeln = new System.Windows.Forms.Button();
-            this.btnZug = new System.Windows.Forms.Button();
-            this.btnRegeln = new System.Windows.Forms.Button();
-            this.btnNeuesSpiel = new System.Windows.Forms.Button();
-            this.label29 = new System.Windows.Forms.Label();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.label30 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
-            this.label33 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
-            this.label36 = new System.Windows.Forms.Label();
-            this.label37 = new System.Windows.Forms.Label();
-            this.label38 = new System.Windows.Forms.Label();
-            this.label39 = new System.Windows.Forms.Label();
-            this.label40 = new System.Windows.Forms.Label();
-            this.label41 = new System.Windows.Forms.Label();
-            this.label42 = new System.Windows.Forms.Label();
-            this.label43 = new System.Windows.Forms.Label();
-            this.label44 = new System.Windows.Forms.Label();
-            this.label45 = new System.Windows.Forms.Label();
-            this.label46 = new System.Windows.Forms.Label();
-            this.label47 = new System.Windows.Forms.Label();
             this.label35 = new System.Windows.Forms.Label();
             this.label48 = new System.Windows.Forms.Label();
             this.label49 = new System.Windows.Forms.Label();
@@ -130,13 +63,87 @@
             this.label57 = new System.Windows.Forms.Label();
             this.label58 = new System.Windows.Forms.Label();
             this.label59 = new System.Windows.Forms.Label();
+            this.label47 = new System.Windows.Forms.Label();
+            this.label46 = new System.Windows.Forms.Label();
+            this.label45 = new System.Windows.Forms.Label();
+            this.label44 = new System.Windows.Forms.Label();
+            this.label43 = new System.Windows.Forms.Label();
+            this.label42 = new System.Windows.Forms.Label();
+            this.label41 = new System.Windows.Forms.Label();
+            this.label40 = new System.Windows.Forms.Label();
+            this.label39 = new System.Windows.Forms.Label();
+            this.label38 = new System.Windows.Forms.Label();
+            this.label37 = new System.Windows.Forms.Label();
+            this.label36 = new System.Windows.Forms.Label();
+            this.label34 = new System.Windows.Forms.Label();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.label32 = new System.Windows.Forms.Label();
+            this.label33 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.btnWählenZweierS2 = new System.Windows.Forms.Button();
+            this.btnWählenDreierS2 = new System.Windows.Forms.Button();
+            this.btnWählenViererS2 = new System.Windows.Forms.Button();
+            this.btnWählenFünferS2 = new System.Windows.Forms.Button();
+            this.btnWählenSechserS2 = new System.Windows.Forms.Button();
+            this.btnWählenDreierpaschS2 = new System.Windows.Forms.Button();
+            this.btnWählenViererpaschS2 = new System.Windows.Forms.Button();
+            this.btnWählenFullHouseS2 = new System.Windows.Forms.Button();
+            this.btnWählenKleineStraßeS2 = new System.Windows.Forms.Button();
+            this.btnWählenGroßeStraßeS2 = new System.Windows.Forms.Button();
+            this.btnWählenKniffelS2 = new System.Windows.Forms.Button();
+            this.btnWählenChanceS2 = new System.Windows.Forms.Button();
+            this.btnWählenEinserS2 = new System.Windows.Forms.Button();
+            this.btnWählenZweierS1 = new System.Windows.Forms.Button();
+            this.btnWählenDreierS1 = new System.Windows.Forms.Button();
+            this.btnWählenViererS1 = new System.Windows.Forms.Button();
+            this.btnWählenFünferS1 = new System.Windows.Forms.Button();
+            this.btnWählenSechserS1 = new System.Windows.Forms.Button();
+            this.btnWählenDreierpaschS1 = new System.Windows.Forms.Button();
+            this.btnWählenViererpaschS1 = new System.Windows.Forms.Button();
+            this.btnWählenFullHouseS1 = new System.Windows.Forms.Button();
+            this.btnWählenKleineStraßeS1 = new System.Windows.Forms.Button();
+            this.btnWählenGroßeStraßeS1 = new System.Windows.Forms.Button();
+            this.btnWählenKniffelS1 = new System.Windows.Forms.Button();
+            this.btnWählenChanceS1 = new System.Windows.Forms.Button();
+            this.btnWählenEinserS1 = new System.Windows.Forms.Button();
+            this.lblSpieler2Name = new System.Windows.Forms.Label();
+            this.lblSpieler1Name = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.lblUebrigeWuerfel = new System.Windows.Forms.Label();
+            this.pctWuerfel5 = new System.Windows.Forms.PictureBox();
+            this.chkHalten5 = new System.Windows.Forms.CheckBox();
+            this.pctWuerfel4 = new System.Windows.Forms.PictureBox();
+            this.pctWuerfel2 = new System.Windows.Forms.PictureBox();
+            this.pctWuerfel3 = new System.Windows.Forms.PictureBox();
+            this.pctWuerfel1 = new System.Windows.Forms.PictureBox();
+            this.chkHalten4 = new System.Windows.Forms.CheckBox();
+            this.chkHalten2 = new System.Windows.Forms.CheckBox();
+            this.chkHalten3 = new System.Windows.Forms.CheckBox();
+            this.chkHalten1 = new System.Windows.Forms.CheckBox();
+            this.label29 = new System.Windows.Forms.Label();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.btnNeuesSpiel = new System.Windows.Forms.Button();
+            this.btnRegeln = new System.Windows.Forms.Button();
+            this.btnZug = new System.Windows.Forms.Button();
+            this.btnWürfeln = new System.Windows.Forms.Button();
+            this.tmrAnimation = new System.Windows.Forms.Timer(this.components);
+            this.tmrAnimationStopper = new System.Windows.Forms.Timer(this.components);
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pctWuerfel5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctWuerfel4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctWuerfel2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctWuerfel3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctWuerfel1)).BeginInit();
             this.groupBox3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -220,14 +227,14 @@
             this.label9.TabIndex = 8;
             this.label9.Text = "Spieler 2:";
             // 
-            // label10
+            // lblAktuellerSpieler
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(133, 15);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(51, 15);
-            this.label10.TabIndex = 9;
-            this.label10.Text = "Spieler 1";
+            this.lblAktuellerSpieler.AutoSize = true;
+            this.lblAktuellerSpieler.Location = new System.Drawing.Point(133, 15);
+            this.lblAktuellerSpieler.Name = "lblAktuellerSpieler";
+            this.lblAktuellerSpieler.Size = new System.Drawing.Size(51, 15);
+            this.lblAktuellerSpieler.TabIndex = 9;
+            this.lblAktuellerSpieler.Text = "Spieler 1";
             // 
             // label11
             // 
@@ -265,19 +272,23 @@
             this.label16.TabIndex = 15;
             this.label16.Text = "Spieler 1:";
             // 
-            // textBox1
+            // txtSpieler1
             // 
-            this.textBox1.Location = new System.Drawing.Point(102, 42);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 23);
-            this.textBox1.TabIndex = 16;
+            this.txtSpieler1.Location = new System.Drawing.Point(102, 42);
+            this.txtSpieler1.Name = "txtSpieler1";
+            this.txtSpieler1.Size = new System.Drawing.Size(100, 23);
+            this.txtSpieler1.TabIndex = 16;
+            this.txtSpieler1.Text = "Spieler 1";
+            this.txtSpieler1.TextChanged += new System.EventHandler(this.txtSpieler1_TextChanged);
             // 
-            // textBox2
+            // txtSpieler2
             // 
-            this.textBox2.Location = new System.Drawing.Point(329, 42);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 23);
-            this.textBox2.TabIndex = 17;
+            this.txtSpieler2.Location = new System.Drawing.Point(329, 42);
+            this.txtSpieler2.Name = "txtSpieler2";
+            this.txtSpieler2.Size = new System.Drawing.Size(100, 23);
+            this.txtSpieler2.TabIndex = 17;
+            this.txtSpieler2.Text = "Spieler 2";
+            this.txtSpieler2.TextChanged += new System.EventHandler(this.txtSpieler2_TextChanged);
             // 
             // label17
             // 
@@ -377,8 +388,8 @@
             this.groupBox1.Controls.Add(this.btnWählenKniffelS1);
             this.groupBox1.Controls.Add(this.btnWählenChanceS1);
             this.groupBox1.Controls.Add(this.btnWählenEinserS1);
-            this.groupBox1.Controls.Add(this.label24);
-            this.groupBox1.Controls.Add(this.label23);
+            this.groupBox1.Controls.Add(this.lblSpieler2Name);
+            this.groupBox1.Controls.Add(this.lblSpieler1Name);
             this.groupBox1.Controls.Add(this.label22);
             this.groupBox1.Controls.Add(this.label21);
             this.groupBox1.Controls.Add(this.label15);
@@ -403,644 +414,6 @@
             this.groupBox1.TabIndex = 22;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Punkte";
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.pictureBox4);
-            this.groupBox2.Controls.Add(this.pictureBox3);
-            this.groupBox2.Controls.Add(this.pictureBox2);
-            this.groupBox2.Controls.Add(this.pictureBox1);
-            this.groupBox2.Controls.Add(this.checkBox5);
-            this.groupBox2.Controls.Add(this.checkBox4);
-            this.groupBox2.Controls.Add(this.checkBox3);
-            this.groupBox2.Controls.Add(this.checkBox1);
-            this.groupBox2.Controls.Add(this.label29);
-            this.groupBox2.Location = new System.Drawing.Point(23, 99);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(455, 154);
-            this.groupBox2.TabIndex = 23;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Würfel";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(8, 439);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(78, 15);
-            this.label14.TabIndex = 22;
-            this.label14.Text = "Unterer Block";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(8, 414);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(102, 15);
-            this.label15.TabIndex = 23;
-            this.label15.Text = "Bonus (+35 ab 63)";
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(8, 390);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(75, 15);
-            this.label21.TabIndex = 24;
-            this.label21.Text = "Oberer Block";
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(7, 463);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(47, 15);
-            this.label22.TabIndex = 25;
-            this.label22.Text = "Gesamt";
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(169, 19);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(51, 15);
-            this.label23.TabIndex = 26;
-            this.label23.Text = "Spieler 1";
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(434, 19);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(51, 15);
-            this.label24.TabIndex = 27;
-            this.label24.Text = "Spieler 2";
-            // 
-            // btnWählenEinserS1
-            // 
-            this.btnWählenEinserS1.Location = new System.Drawing.Point(157, 41);
-            this.btnWählenEinserS1.Name = "btnWählenEinserS1";
-            this.btnWählenEinserS1.Size = new System.Drawing.Size(75, 23);
-            this.btnWählenEinserS1.TabIndex = 28;
-            this.btnWählenEinserS1.Text = "Wählen";
-            this.btnWählenEinserS1.UseVisualStyleBackColor = true;
-            // 
-            // btnWählenChanceS1
-            // 
-            this.btnWählenChanceS1.Location = new System.Drawing.Point(157, 343);
-            this.btnWählenChanceS1.Name = "btnWählenChanceS1";
-            this.btnWählenChanceS1.Size = new System.Drawing.Size(75, 23);
-            this.btnWählenChanceS1.TabIndex = 31;
-            this.btnWählenChanceS1.Text = "Wählen";
-            this.btnWählenChanceS1.UseVisualStyleBackColor = true;
-            // 
-            // btnWählenKniffelS1
-            // 
-            this.btnWählenKniffelS1.Location = new System.Drawing.Point(157, 319);
-            this.btnWählenKniffelS1.Name = "btnWählenKniffelS1";
-            this.btnWählenKniffelS1.Size = new System.Drawing.Size(75, 23);
-            this.btnWählenKniffelS1.TabIndex = 32;
-            this.btnWählenKniffelS1.Text = "Wählen";
-            this.btnWählenKniffelS1.UseVisualStyleBackColor = true;
-            // 
-            // btnWählenGroßeStraßeS1
-            // 
-            this.btnWählenGroßeStraßeS1.Location = new System.Drawing.Point(157, 292);
-            this.btnWählenGroßeStraßeS1.Name = "btnWählenGroßeStraßeS1";
-            this.btnWählenGroßeStraßeS1.Size = new System.Drawing.Size(75, 23);
-            this.btnWählenGroßeStraßeS1.TabIndex = 33;
-            this.btnWählenGroßeStraßeS1.Text = "Wählen";
-            this.btnWählenGroßeStraßeS1.UseVisualStyleBackColor = true;
-            // 
-            // btnWählenKleineStraßeS1
-            // 
-            this.btnWählenKleineStraßeS1.Location = new System.Drawing.Point(157, 266);
-            this.btnWählenKleineStraßeS1.Name = "btnWählenKleineStraßeS1";
-            this.btnWählenKleineStraßeS1.Size = new System.Drawing.Size(75, 23);
-            this.btnWählenKleineStraßeS1.TabIndex = 34;
-            this.btnWählenKleineStraßeS1.Text = "Wählen";
-            this.btnWählenKleineStraßeS1.UseVisualStyleBackColor = true;
-            // 
-            // btnWählenFullHouseS1
-            // 
-            this.btnWählenFullHouseS1.Location = new System.Drawing.Point(157, 242);
-            this.btnWählenFullHouseS1.Name = "btnWählenFullHouseS1";
-            this.btnWählenFullHouseS1.Size = new System.Drawing.Size(75, 23);
-            this.btnWählenFullHouseS1.TabIndex = 35;
-            this.btnWählenFullHouseS1.Text = "Wählen";
-            this.btnWählenFullHouseS1.UseVisualStyleBackColor = true;
-            // 
-            // btnWählenViererpaschS1
-            // 
-            this.btnWählenViererpaschS1.Location = new System.Drawing.Point(157, 214);
-            this.btnWählenViererpaschS1.Name = "btnWählenViererpaschS1";
-            this.btnWählenViererpaschS1.Size = new System.Drawing.Size(75, 23);
-            this.btnWählenViererpaschS1.TabIndex = 36;
-            this.btnWählenViererpaschS1.Text = "Wählen";
-            this.btnWählenViererpaschS1.UseVisualStyleBackColor = true;
-            // 
-            // btnWählenDreierpaschS1
-            // 
-            this.btnWählenDreierpaschS1.Location = new System.Drawing.Point(157, 189);
-            this.btnWählenDreierpaschS1.Name = "btnWählenDreierpaschS1";
-            this.btnWählenDreierpaschS1.Size = new System.Drawing.Size(75, 23);
-            this.btnWählenDreierpaschS1.TabIndex = 37;
-            this.btnWählenDreierpaschS1.Text = "Wählen";
-            this.btnWählenDreierpaschS1.UseVisualStyleBackColor = true;
-            // 
-            // btnWählenSechserS1
-            // 
-            this.btnWählenSechserS1.Location = new System.Drawing.Point(157, 165);
-            this.btnWählenSechserS1.Name = "btnWählenSechserS1";
-            this.btnWählenSechserS1.Size = new System.Drawing.Size(75, 23);
-            this.btnWählenSechserS1.TabIndex = 38;
-            this.btnWählenSechserS1.Text = "Wählen";
-            this.btnWählenSechserS1.UseVisualStyleBackColor = true;
-            // 
-            // btnWählenFünferS1
-            // 
-            this.btnWählenFünferS1.Location = new System.Drawing.Point(157, 139);
-            this.btnWählenFünferS1.Name = "btnWählenFünferS1";
-            this.btnWählenFünferS1.Size = new System.Drawing.Size(75, 23);
-            this.btnWählenFünferS1.TabIndex = 39;
-            this.btnWählenFünferS1.Text = "Wählen";
-            this.btnWählenFünferS1.UseVisualStyleBackColor = true;
-            // 
-            // btnWählenViererS1
-            // 
-            this.btnWählenViererS1.Location = new System.Drawing.Point(157, 114);
-            this.btnWählenViererS1.Name = "btnWählenViererS1";
-            this.btnWählenViererS1.Size = new System.Drawing.Size(75, 23);
-            this.btnWählenViererS1.TabIndex = 40;
-            this.btnWählenViererS1.Text = "Wählen";
-            this.btnWählenViererS1.UseVisualStyleBackColor = true;
-            // 
-            // btnWählenDreierS1
-            // 
-            this.btnWählenDreierS1.Location = new System.Drawing.Point(157, 90);
-            this.btnWählenDreierS1.Name = "btnWählenDreierS1";
-            this.btnWählenDreierS1.Size = new System.Drawing.Size(75, 23);
-            this.btnWählenDreierS1.TabIndex = 41;
-            this.btnWählenDreierS1.Text = "Wählen";
-            this.btnWählenDreierS1.UseVisualStyleBackColor = true;
-            // 
-            // btnWählenZweierS1
-            // 
-            this.btnWählenZweierS1.Location = new System.Drawing.Point(157, 65);
-            this.btnWählenZweierS1.Name = "btnWählenZweierS1";
-            this.btnWählenZweierS1.Size = new System.Drawing.Size(75, 23);
-            this.btnWählenZweierS1.TabIndex = 42;
-            this.btnWählenZweierS1.Text = "Wählen";
-            this.btnWählenZweierS1.UseVisualStyleBackColor = true;
-            // 
-            // btnWählenZweierS2
-            // 
-            this.btnWählenZweierS2.Location = new System.Drawing.Point(423, 65);
-            this.btnWählenZweierS2.Name = "btnWählenZweierS2";
-            this.btnWählenZweierS2.Size = new System.Drawing.Size(75, 23);
-            this.btnWählenZweierS2.TabIndex = 55;
-            this.btnWählenZweierS2.Text = "Wählen";
-            this.btnWählenZweierS2.UseVisualStyleBackColor = true;
-            // 
-            // btnWählenDreierS2
-            // 
-            this.btnWählenDreierS2.Location = new System.Drawing.Point(423, 90);
-            this.btnWählenDreierS2.Name = "btnWählenDreierS2";
-            this.btnWählenDreierS2.Size = new System.Drawing.Size(75, 23);
-            this.btnWählenDreierS2.TabIndex = 54;
-            this.btnWählenDreierS2.Text = "Wählen";
-            this.btnWählenDreierS2.UseVisualStyleBackColor = true;
-            // 
-            // btnWählenViererS2
-            // 
-            this.btnWählenViererS2.Location = new System.Drawing.Point(423, 114);
-            this.btnWählenViererS2.Name = "btnWählenViererS2";
-            this.btnWählenViererS2.Size = new System.Drawing.Size(75, 23);
-            this.btnWählenViererS2.TabIndex = 53;
-            this.btnWählenViererS2.Text = "Wählen";
-            this.btnWählenViererS2.UseVisualStyleBackColor = true;
-            // 
-            // btnWählenFünferS2
-            // 
-            this.btnWählenFünferS2.Location = new System.Drawing.Point(423, 139);
-            this.btnWählenFünferS2.Name = "btnWählenFünferS2";
-            this.btnWählenFünferS2.Size = new System.Drawing.Size(75, 23);
-            this.btnWählenFünferS2.TabIndex = 52;
-            this.btnWählenFünferS2.Text = "Wählen";
-            this.btnWählenFünferS2.UseVisualStyleBackColor = true;
-            // 
-            // btnWählenSechserS2
-            // 
-            this.btnWählenSechserS2.Location = new System.Drawing.Point(423, 165);
-            this.btnWählenSechserS2.Name = "btnWählenSechserS2";
-            this.btnWählenSechserS2.Size = new System.Drawing.Size(75, 23);
-            this.btnWählenSechserS2.TabIndex = 51;
-            this.btnWählenSechserS2.Text = "Wählen";
-            this.btnWählenSechserS2.UseVisualStyleBackColor = true;
-            // 
-            // btnWählenDreierpaschS2
-            // 
-            this.btnWählenDreierpaschS2.Location = new System.Drawing.Point(423, 189);
-            this.btnWählenDreierpaschS2.Name = "btnWählenDreierpaschS2";
-            this.btnWählenDreierpaschS2.Size = new System.Drawing.Size(75, 23);
-            this.btnWählenDreierpaschS2.TabIndex = 50;
-            this.btnWählenDreierpaschS2.Text = "Wählen";
-            this.btnWählenDreierpaschS2.UseVisualStyleBackColor = true;
-            // 
-            // btnWählenViererpaschS2
-            // 
-            this.btnWählenViererpaschS2.Location = new System.Drawing.Point(423, 214);
-            this.btnWählenViererpaschS2.Name = "btnWählenViererpaschS2";
-            this.btnWählenViererpaschS2.Size = new System.Drawing.Size(75, 23);
-            this.btnWählenViererpaschS2.TabIndex = 49;
-            this.btnWählenViererpaschS2.Text = "Wählen";
-            this.btnWählenViererpaschS2.UseVisualStyleBackColor = true;
-            // 
-            // btnWählenFullHouseS2
-            // 
-            this.btnWählenFullHouseS2.Location = new System.Drawing.Point(423, 242);
-            this.btnWählenFullHouseS2.Name = "btnWählenFullHouseS2";
-            this.btnWählenFullHouseS2.Size = new System.Drawing.Size(75, 23);
-            this.btnWählenFullHouseS2.TabIndex = 48;
-            this.btnWählenFullHouseS2.Text = "Wählen";
-            this.btnWählenFullHouseS2.UseVisualStyleBackColor = true;
-            // 
-            // btnWählenKleineStraßeS2
-            // 
-            this.btnWählenKleineStraßeS2.Location = new System.Drawing.Point(423, 266);
-            this.btnWählenKleineStraßeS2.Name = "btnWählenKleineStraßeS2";
-            this.btnWählenKleineStraßeS2.Size = new System.Drawing.Size(75, 23);
-            this.btnWählenKleineStraßeS2.TabIndex = 47;
-            this.btnWählenKleineStraßeS2.Text = "Wählen";
-            this.btnWählenKleineStraßeS2.UseVisualStyleBackColor = true;
-            // 
-            // btnWählenGroßeStraßeS2
-            // 
-            this.btnWählenGroßeStraßeS2.Location = new System.Drawing.Point(423, 292);
-            this.btnWählenGroßeStraßeS2.Name = "btnWählenGroßeStraßeS2";
-            this.btnWählenGroßeStraßeS2.Size = new System.Drawing.Size(75, 23);
-            this.btnWählenGroßeStraßeS2.TabIndex = 46;
-            this.btnWählenGroßeStraßeS2.Text = "Wählen";
-            this.btnWählenGroßeStraßeS2.UseVisualStyleBackColor = true;
-            // 
-            // btnWählenKniffelS2
-            // 
-            this.btnWählenKniffelS2.Location = new System.Drawing.Point(423, 319);
-            this.btnWählenKniffelS2.Name = "btnWählenKniffelS2";
-            this.btnWählenKniffelS2.Size = new System.Drawing.Size(75, 23);
-            this.btnWählenKniffelS2.TabIndex = 45;
-            this.btnWählenKniffelS2.Text = "Wählen";
-            this.btnWählenKniffelS2.UseVisualStyleBackColor = true;
-            // 
-            // btnWählenChanceS2
-            // 
-            this.btnWählenChanceS2.Location = new System.Drawing.Point(423, 343);
-            this.btnWählenChanceS2.Name = "btnWählenChanceS2";
-            this.btnWählenChanceS2.Size = new System.Drawing.Size(75, 23);
-            this.btnWählenChanceS2.TabIndex = 44;
-            this.btnWählenChanceS2.Text = "Wählen";
-            this.btnWählenChanceS2.UseVisualStyleBackColor = true;
-            // 
-            // btnWählenEinserS2
-            // 
-            this.btnWählenEinserS2.Location = new System.Drawing.Point(423, 41);
-            this.btnWählenEinserS2.Name = "btnWählenEinserS2";
-            this.btnWählenEinserS2.Size = new System.Drawing.Size(75, 23);
-            this.btnWählenEinserS2.TabIndex = 43;
-            this.btnWählenEinserS2.Text = "Wählen";
-            this.btnWählenEinserS2.UseVisualStyleBackColor = true;
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(267, 390);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(13, 15);
-            this.label25.TabIndex = 56;
-            this.label25.Text = "0";
-            // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(267, 463);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(13, 15);
-            this.label26.TabIndex = 57;
-            this.label26.Text = "0";
-            // 
-            // label27
-            // 
-            this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(267, 439);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(13, 15);
-            this.label27.TabIndex = 58;
-            this.label27.Text = "0";
-            // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(267, 414);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(13, 15);
-            this.label28.TabIndex = 59;
-            this.label28.Text = "0";
-            // 
-            // groupBox3
-            // 
-            this.groupBox3.Controls.Add(this.btnNeuesSpiel);
-            this.groupBox3.Controls.Add(this.btnRegeln);
-            this.groupBox3.Controls.Add(this.btnZug);
-            this.groupBox3.Controls.Add(this.btnWürfeln);
-            this.groupBox3.Location = new System.Drawing.Point(536, 99);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(283, 154);
-            this.groupBox3.TabIndex = 24;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Steuerung";
-            // 
-            // btnWürfeln
-            // 
-            this.btnWürfeln.Location = new System.Drawing.Point(16, 31);
-            this.btnWürfeln.Name = "btnWürfeln";
-            this.btnWürfeln.Size = new System.Drawing.Size(88, 23);
-            this.btnWürfeln.TabIndex = 0;
-            this.btnWürfeln.Text = "Würfeln";
-            this.btnWürfeln.UseVisualStyleBackColor = true;
-            // 
-            // btnZug
-            // 
-            this.btnZug.Location = new System.Drawing.Point(16, 80);
-            this.btnZug.Name = "btnZug";
-            this.btnZug.Size = new System.Drawing.Size(88, 23);
-            this.btnZug.TabIndex = 1;
-            this.btnZug.Text = "Zug";
-            this.btnZug.UseVisualStyleBackColor = true;
-            // 
-            // btnRegeln
-            // 
-            this.btnRegeln.Location = new System.Drawing.Point(170, 80);
-            this.btnRegeln.Name = "btnRegeln";
-            this.btnRegeln.Size = new System.Drawing.Size(88, 23);
-            this.btnRegeln.TabIndex = 2;
-            this.btnRegeln.Text = "Regeln";
-            this.btnRegeln.UseVisualStyleBackColor = true;
-            // 
-            // btnNeuesSpiel
-            // 
-            this.btnNeuesSpiel.Location = new System.Drawing.Point(170, 31);
-            this.btnNeuesSpiel.Name = "btnNeuesSpiel";
-            this.btnNeuesSpiel.Size = new System.Drawing.Size(88, 23);
-            this.btnNeuesSpiel.TabIndex = 3;
-            this.btnNeuesSpiel.Text = "Neues Spiel";
-            this.btnNeuesSpiel.UseVisualStyleBackColor = true;
-            // 
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(335, 31);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(86, 15);
-            this.label29.TabIndex = 0;
-            this.label29.Text = "Würfe in dieser";
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(15, 117);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(61, 19);
-            this.checkBox1.TabIndex = 1;
-            this.checkBox1.Text = "Halten";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // checkBox3
-            // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(171, 117);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(61, 19);
-            this.checkBox3.TabIndex = 3;
-            this.checkBox3.Text = "Halten";
-            this.checkBox3.UseVisualStyleBackColor = true;
-            // 
-            // checkBox4
-            // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(93, 117);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(61, 19);
-            this.checkBox4.TabIndex = 4;
-            this.checkBox4.Text = "Halten";
-            this.checkBox4.UseVisualStyleBackColor = true;
-            // 
-            // checkBox5
-            // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Location = new System.Drawing.Point(250, 117);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(61, 19);
-            this.checkBox5.TabIndex = 5;
-            this.checkBox5.Text = "Halten";
-            this.checkBox5.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(15, 41);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(68, 62);
-            this.pictureBox1.TabIndex = 6;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Location = new System.Drawing.Point(171, 41);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(68, 62);
-            this.pictureBox2.TabIndex = 7;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Location = new System.Drawing.Point(93, 41);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(68, 62);
-            this.pictureBox3.TabIndex = 8;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Location = new System.Drawing.Point(250, 41);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(68, 62);
-            this.pictureBox4.TabIndex = 9;
-            this.pictureBox4.TabStop = false;
-            // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(529, 414);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(13, 15);
-            this.label30.TabIndex = 63;
-            this.label30.Text = "0";
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(529, 439);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(13, 15);
-            this.label31.TabIndex = 62;
-            this.label31.Text = "0";
-            // 
-            // label32
-            // 
-            this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(529, 463);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(13, 15);
-            this.label32.TabIndex = 61;
-            this.label32.Text = "0";
-            // 
-            // label33
-            // 
-            this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(529, 390);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(13, 15);
-            this.label33.TabIndex = 60;
-            this.label33.Text = "0";
-            // 
-            // label34
-            // 
-            this.label34.AutoSize = true;
-            this.label34.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label34.Location = new System.Drawing.Point(256, 32);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(24, 32);
-            this.label34.TabIndex = 64;
-            this.label34.Text = "-";
-            // 
-            // label36
-            // 
-            this.label36.AutoSize = true;
-            this.label36.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label36.Location = new System.Drawing.Point(256, 310);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(24, 32);
-            this.label36.TabIndex = 66;
-            this.label36.Text = "-";
-            // 
-            // label37
-            // 
-            this.label37.AutoSize = true;
-            this.label37.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label37.Location = new System.Drawing.Point(256, 337);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(24, 32);
-            this.label37.TabIndex = 67;
-            this.label37.Text = "-";
-            // 
-            // label38
-            // 
-            this.label38.AutoSize = true;
-            this.label38.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label38.Location = new System.Drawing.Point(256, 286);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(24, 32);
-            this.label38.TabIndex = 68;
-            this.label38.Text = "-";
-            // 
-            // label39
-            // 
-            this.label39.AutoSize = true;
-            this.label39.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label39.Location = new System.Drawing.Point(256, 259);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(24, 32);
-            this.label39.TabIndex = 69;
-            this.label39.Text = "-";
-            // 
-            // label40
-            // 
-            this.label40.AutoSize = true;
-            this.label40.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label40.Location = new System.Drawing.Point(256, 233);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(24, 32);
-            this.label40.TabIndex = 70;
-            this.label40.Text = "-";
-            // 
-            // label41
-            // 
-            this.label41.AutoSize = true;
-            this.label41.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label41.Location = new System.Drawing.Point(256, 205);
-            this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(24, 32);
-            this.label41.TabIndex = 71;
-            this.label41.Text = "-";
-            // 
-            // label42
-            // 
-            this.label42.AutoSize = true;
-            this.label42.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label42.Location = new System.Drawing.Point(256, 180);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(24, 32);
-            this.label42.TabIndex = 72;
-            this.label42.Text = "-";
-            // 
-            // label43
-            // 
-            this.label43.AutoSize = true;
-            this.label43.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label43.Location = new System.Drawing.Point(256, 156);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(24, 32);
-            this.label43.TabIndex = 73;
-            this.label43.Text = "-";
-            // 
-            // label44
-            // 
-            this.label44.AutoSize = true;
-            this.label44.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label44.Location = new System.Drawing.Point(256, 130);
-            this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(24, 32);
-            this.label44.TabIndex = 74;
-            this.label44.Text = "-";
-            // 
-            // label45
-            // 
-            this.label45.AutoSize = true;
-            this.label45.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label45.Location = new System.Drawing.Point(256, 105);
-            this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(24, 32);
-            this.label45.TabIndex = 75;
-            this.label45.Text = "-";
-            // 
-            // label46
-            // 
-            this.label46.AutoSize = true;
-            this.label46.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label46.Location = new System.Drawing.Point(256, 56);
-            this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(24, 32);
-            this.label46.TabIndex = 76;
-            this.label46.Text = "-";
-            // 
-            // label47
-            // 
-            this.label47.AutoSize = true;
-            this.label47.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label47.Location = new System.Drawing.Point(256, 81);
-            this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(24, 32);
-            this.label47.TabIndex = 77;
-            this.label47.Text = "-";
             // 
             // label35
             // 
@@ -1172,6 +545,702 @@
             this.label59.TabIndex = 78;
             this.label59.Text = "-";
             // 
+            // label47
+            // 
+            this.label47.AutoSize = true;
+            this.label47.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label47.Location = new System.Drawing.Point(256, 81);
+            this.label47.Name = "label47";
+            this.label47.Size = new System.Drawing.Size(24, 32);
+            this.label47.TabIndex = 77;
+            this.label47.Text = "-";
+            // 
+            // label46
+            // 
+            this.label46.AutoSize = true;
+            this.label46.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label46.Location = new System.Drawing.Point(256, 56);
+            this.label46.Name = "label46";
+            this.label46.Size = new System.Drawing.Size(24, 32);
+            this.label46.TabIndex = 76;
+            this.label46.Text = "-";
+            // 
+            // label45
+            // 
+            this.label45.AutoSize = true;
+            this.label45.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label45.Location = new System.Drawing.Point(256, 105);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(24, 32);
+            this.label45.TabIndex = 75;
+            this.label45.Text = "-";
+            // 
+            // label44
+            // 
+            this.label44.AutoSize = true;
+            this.label44.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label44.Location = new System.Drawing.Point(256, 130);
+            this.label44.Name = "label44";
+            this.label44.Size = new System.Drawing.Size(24, 32);
+            this.label44.TabIndex = 74;
+            this.label44.Text = "-";
+            // 
+            // label43
+            // 
+            this.label43.AutoSize = true;
+            this.label43.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label43.Location = new System.Drawing.Point(256, 156);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(24, 32);
+            this.label43.TabIndex = 73;
+            this.label43.Text = "-";
+            // 
+            // label42
+            // 
+            this.label42.AutoSize = true;
+            this.label42.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label42.Location = new System.Drawing.Point(256, 180);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(24, 32);
+            this.label42.TabIndex = 72;
+            this.label42.Text = "-";
+            // 
+            // label41
+            // 
+            this.label41.AutoSize = true;
+            this.label41.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label41.Location = new System.Drawing.Point(256, 205);
+            this.label41.Name = "label41";
+            this.label41.Size = new System.Drawing.Size(24, 32);
+            this.label41.TabIndex = 71;
+            this.label41.Text = "-";
+            // 
+            // label40
+            // 
+            this.label40.AutoSize = true;
+            this.label40.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label40.Location = new System.Drawing.Point(256, 233);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(24, 32);
+            this.label40.TabIndex = 70;
+            this.label40.Text = "-";
+            // 
+            // label39
+            // 
+            this.label39.AutoSize = true;
+            this.label39.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label39.Location = new System.Drawing.Point(256, 259);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(24, 32);
+            this.label39.TabIndex = 69;
+            this.label39.Text = "-";
+            // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label38.Location = new System.Drawing.Point(256, 286);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(24, 32);
+            this.label38.TabIndex = 68;
+            this.label38.Text = "-";
+            // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label37.Location = new System.Drawing.Point(256, 337);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(24, 32);
+            this.label37.TabIndex = 67;
+            this.label37.Text = "-";
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label36.Location = new System.Drawing.Point(256, 310);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(24, 32);
+            this.label36.TabIndex = 66;
+            this.label36.Text = "-";
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label34.Location = new System.Drawing.Point(256, 32);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(24, 32);
+            this.label34.TabIndex = 64;
+            this.label34.Text = "-";
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Location = new System.Drawing.Point(529, 414);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(13, 15);
+            this.label30.TabIndex = 63;
+            this.label30.Text = "0";
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Location = new System.Drawing.Point(529, 439);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(13, 15);
+            this.label31.TabIndex = 62;
+            this.label31.Text = "0";
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Location = new System.Drawing.Point(529, 463);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(13, 15);
+            this.label32.TabIndex = 61;
+            this.label32.Text = "0";
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Location = new System.Drawing.Point(529, 390);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(13, 15);
+            this.label33.TabIndex = 60;
+            this.label33.Text = "0";
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Location = new System.Drawing.Point(267, 414);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(13, 15);
+            this.label28.TabIndex = 59;
+            this.label28.Text = "0";
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Location = new System.Drawing.Point(267, 439);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(13, 15);
+            this.label27.TabIndex = 58;
+            this.label27.Text = "0";
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Location = new System.Drawing.Point(267, 463);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(13, 15);
+            this.label26.TabIndex = 57;
+            this.label26.Text = "0";
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Location = new System.Drawing.Point(267, 390);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(13, 15);
+            this.label25.TabIndex = 56;
+            this.label25.Text = "0";
+            // 
+            // btnWählenZweierS2
+            // 
+            this.btnWählenZweierS2.Location = new System.Drawing.Point(423, 65);
+            this.btnWählenZweierS2.Name = "btnWählenZweierS2";
+            this.btnWählenZweierS2.Size = new System.Drawing.Size(75, 23);
+            this.btnWählenZweierS2.TabIndex = 55;
+            this.btnWählenZweierS2.Text = "Wählen";
+            this.btnWählenZweierS2.UseVisualStyleBackColor = true;
+            // 
+            // btnWählenDreierS2
+            // 
+            this.btnWählenDreierS2.Location = new System.Drawing.Point(423, 90);
+            this.btnWählenDreierS2.Name = "btnWählenDreierS2";
+            this.btnWählenDreierS2.Size = new System.Drawing.Size(75, 23);
+            this.btnWählenDreierS2.TabIndex = 54;
+            this.btnWählenDreierS2.Text = "Wählen";
+            this.btnWählenDreierS2.UseVisualStyleBackColor = true;
+            // 
+            // btnWählenViererS2
+            // 
+            this.btnWählenViererS2.Location = new System.Drawing.Point(423, 114);
+            this.btnWählenViererS2.Name = "btnWählenViererS2";
+            this.btnWählenViererS2.Size = new System.Drawing.Size(75, 23);
+            this.btnWählenViererS2.TabIndex = 53;
+            this.btnWählenViererS2.Text = "Wählen";
+            this.btnWählenViererS2.UseVisualStyleBackColor = true;
+            // 
+            // btnWählenFünferS2
+            // 
+            this.btnWählenFünferS2.Location = new System.Drawing.Point(423, 139);
+            this.btnWählenFünferS2.Name = "btnWählenFünferS2";
+            this.btnWählenFünferS2.Size = new System.Drawing.Size(75, 23);
+            this.btnWählenFünferS2.TabIndex = 52;
+            this.btnWählenFünferS2.Text = "Wählen";
+            this.btnWählenFünferS2.UseVisualStyleBackColor = true;
+            // 
+            // btnWählenSechserS2
+            // 
+            this.btnWählenSechserS2.Location = new System.Drawing.Point(423, 165);
+            this.btnWählenSechserS2.Name = "btnWählenSechserS2";
+            this.btnWählenSechserS2.Size = new System.Drawing.Size(75, 23);
+            this.btnWählenSechserS2.TabIndex = 51;
+            this.btnWählenSechserS2.Text = "Wählen";
+            this.btnWählenSechserS2.UseVisualStyleBackColor = true;
+            // 
+            // btnWählenDreierpaschS2
+            // 
+            this.btnWählenDreierpaschS2.Location = new System.Drawing.Point(423, 189);
+            this.btnWählenDreierpaschS2.Name = "btnWählenDreierpaschS2";
+            this.btnWählenDreierpaschS2.Size = new System.Drawing.Size(75, 23);
+            this.btnWählenDreierpaschS2.TabIndex = 50;
+            this.btnWählenDreierpaschS2.Text = "Wählen";
+            this.btnWählenDreierpaschS2.UseVisualStyleBackColor = true;
+            // 
+            // btnWählenViererpaschS2
+            // 
+            this.btnWählenViererpaschS2.Location = new System.Drawing.Point(423, 214);
+            this.btnWählenViererpaschS2.Name = "btnWählenViererpaschS2";
+            this.btnWählenViererpaschS2.Size = new System.Drawing.Size(75, 23);
+            this.btnWählenViererpaschS2.TabIndex = 49;
+            this.btnWählenViererpaschS2.Text = "Wählen";
+            this.btnWählenViererpaschS2.UseVisualStyleBackColor = true;
+            // 
+            // btnWählenFullHouseS2
+            // 
+            this.btnWählenFullHouseS2.Location = new System.Drawing.Point(423, 242);
+            this.btnWählenFullHouseS2.Name = "btnWählenFullHouseS2";
+            this.btnWählenFullHouseS2.Size = new System.Drawing.Size(75, 23);
+            this.btnWählenFullHouseS2.TabIndex = 48;
+            this.btnWählenFullHouseS2.Text = "Wählen";
+            this.btnWählenFullHouseS2.UseVisualStyleBackColor = true;
+            // 
+            // btnWählenKleineStraßeS2
+            // 
+            this.btnWählenKleineStraßeS2.Location = new System.Drawing.Point(423, 266);
+            this.btnWählenKleineStraßeS2.Name = "btnWählenKleineStraßeS2";
+            this.btnWählenKleineStraßeS2.Size = new System.Drawing.Size(75, 23);
+            this.btnWählenKleineStraßeS2.TabIndex = 47;
+            this.btnWählenKleineStraßeS2.Text = "Wählen";
+            this.btnWählenKleineStraßeS2.UseVisualStyleBackColor = true;
+            // 
+            // btnWählenGroßeStraßeS2
+            // 
+            this.btnWählenGroßeStraßeS2.Location = new System.Drawing.Point(423, 292);
+            this.btnWählenGroßeStraßeS2.Name = "btnWählenGroßeStraßeS2";
+            this.btnWählenGroßeStraßeS2.Size = new System.Drawing.Size(75, 23);
+            this.btnWählenGroßeStraßeS2.TabIndex = 46;
+            this.btnWählenGroßeStraßeS2.Text = "Wählen";
+            this.btnWählenGroßeStraßeS2.UseVisualStyleBackColor = true;
+            // 
+            // btnWählenKniffelS2
+            // 
+            this.btnWählenKniffelS2.Location = new System.Drawing.Point(423, 319);
+            this.btnWählenKniffelS2.Name = "btnWählenKniffelS2";
+            this.btnWählenKniffelS2.Size = new System.Drawing.Size(75, 23);
+            this.btnWählenKniffelS2.TabIndex = 45;
+            this.btnWählenKniffelS2.Text = "Wählen";
+            this.btnWählenKniffelS2.UseVisualStyleBackColor = true;
+            // 
+            // btnWählenChanceS2
+            // 
+            this.btnWählenChanceS2.Location = new System.Drawing.Point(423, 343);
+            this.btnWählenChanceS2.Name = "btnWählenChanceS2";
+            this.btnWählenChanceS2.Size = new System.Drawing.Size(75, 23);
+            this.btnWählenChanceS2.TabIndex = 44;
+            this.btnWählenChanceS2.Text = "Wählen";
+            this.btnWählenChanceS2.UseVisualStyleBackColor = true;
+            // 
+            // btnWählenEinserS2
+            // 
+            this.btnWählenEinserS2.Location = new System.Drawing.Point(423, 41);
+            this.btnWählenEinserS2.Name = "btnWählenEinserS2";
+            this.btnWählenEinserS2.Size = new System.Drawing.Size(75, 23);
+            this.btnWählenEinserS2.TabIndex = 43;
+            this.btnWählenEinserS2.Text = "Wählen";
+            this.btnWählenEinserS2.UseVisualStyleBackColor = true;
+            // 
+            // btnWählenZweierS1
+            // 
+            this.btnWählenZweierS1.Location = new System.Drawing.Point(157, 65);
+            this.btnWählenZweierS1.Name = "btnWählenZweierS1";
+            this.btnWählenZweierS1.Size = new System.Drawing.Size(75, 23);
+            this.btnWählenZweierS1.TabIndex = 42;
+            this.btnWählenZweierS1.Text = "Wählen";
+            this.btnWählenZweierS1.UseVisualStyleBackColor = true;
+            // 
+            // btnWählenDreierS1
+            // 
+            this.btnWählenDreierS1.Location = new System.Drawing.Point(157, 90);
+            this.btnWählenDreierS1.Name = "btnWählenDreierS1";
+            this.btnWählenDreierS1.Size = new System.Drawing.Size(75, 23);
+            this.btnWählenDreierS1.TabIndex = 41;
+            this.btnWählenDreierS1.Text = "Wählen";
+            this.btnWählenDreierS1.UseVisualStyleBackColor = true;
+            // 
+            // btnWählenViererS1
+            // 
+            this.btnWählenViererS1.Location = new System.Drawing.Point(157, 114);
+            this.btnWählenViererS1.Name = "btnWählenViererS1";
+            this.btnWählenViererS1.Size = new System.Drawing.Size(75, 23);
+            this.btnWählenViererS1.TabIndex = 40;
+            this.btnWählenViererS1.Text = "Wählen";
+            this.btnWählenViererS1.UseVisualStyleBackColor = true;
+            // 
+            // btnWählenFünferS1
+            // 
+            this.btnWählenFünferS1.Location = new System.Drawing.Point(157, 139);
+            this.btnWählenFünferS1.Name = "btnWählenFünferS1";
+            this.btnWählenFünferS1.Size = new System.Drawing.Size(75, 23);
+            this.btnWählenFünferS1.TabIndex = 39;
+            this.btnWählenFünferS1.Text = "Wählen";
+            this.btnWählenFünferS1.UseVisualStyleBackColor = true;
+            // 
+            // btnWählenSechserS1
+            // 
+            this.btnWählenSechserS1.Location = new System.Drawing.Point(157, 165);
+            this.btnWählenSechserS1.Name = "btnWählenSechserS1";
+            this.btnWählenSechserS1.Size = new System.Drawing.Size(75, 23);
+            this.btnWählenSechserS1.TabIndex = 38;
+            this.btnWählenSechserS1.Text = "Wählen";
+            this.btnWählenSechserS1.UseVisualStyleBackColor = true;
+            // 
+            // btnWählenDreierpaschS1
+            // 
+            this.btnWählenDreierpaschS1.Location = new System.Drawing.Point(157, 189);
+            this.btnWählenDreierpaschS1.Name = "btnWählenDreierpaschS1";
+            this.btnWählenDreierpaschS1.Size = new System.Drawing.Size(75, 23);
+            this.btnWählenDreierpaschS1.TabIndex = 37;
+            this.btnWählenDreierpaschS1.Text = "Wählen";
+            this.btnWählenDreierpaschS1.UseVisualStyleBackColor = true;
+            // 
+            // btnWählenViererpaschS1
+            // 
+            this.btnWählenViererpaschS1.Location = new System.Drawing.Point(157, 214);
+            this.btnWählenViererpaschS1.Name = "btnWählenViererpaschS1";
+            this.btnWählenViererpaschS1.Size = new System.Drawing.Size(75, 23);
+            this.btnWählenViererpaschS1.TabIndex = 36;
+            this.btnWählenViererpaschS1.Text = "Wählen";
+            this.btnWählenViererpaschS1.UseVisualStyleBackColor = true;
+            // 
+            // btnWählenFullHouseS1
+            // 
+            this.btnWählenFullHouseS1.Location = new System.Drawing.Point(157, 242);
+            this.btnWählenFullHouseS1.Name = "btnWählenFullHouseS1";
+            this.btnWählenFullHouseS1.Size = new System.Drawing.Size(75, 23);
+            this.btnWählenFullHouseS1.TabIndex = 35;
+            this.btnWählenFullHouseS1.Text = "Wählen";
+            this.btnWählenFullHouseS1.UseVisualStyleBackColor = true;
+            // 
+            // btnWählenKleineStraßeS1
+            // 
+            this.btnWählenKleineStraßeS1.Location = new System.Drawing.Point(157, 266);
+            this.btnWählenKleineStraßeS1.Name = "btnWählenKleineStraßeS1";
+            this.btnWählenKleineStraßeS1.Size = new System.Drawing.Size(75, 23);
+            this.btnWählenKleineStraßeS1.TabIndex = 34;
+            this.btnWählenKleineStraßeS1.Text = "Wählen";
+            this.btnWählenKleineStraßeS1.UseVisualStyleBackColor = true;
+            // 
+            // btnWählenGroßeStraßeS1
+            // 
+            this.btnWählenGroßeStraßeS1.Location = new System.Drawing.Point(157, 292);
+            this.btnWählenGroßeStraßeS1.Name = "btnWählenGroßeStraßeS1";
+            this.btnWählenGroßeStraßeS1.Size = new System.Drawing.Size(75, 23);
+            this.btnWählenGroßeStraßeS1.TabIndex = 33;
+            this.btnWählenGroßeStraßeS1.Text = "Wählen";
+            this.btnWählenGroßeStraßeS1.UseVisualStyleBackColor = true;
+            // 
+            // btnWählenKniffelS1
+            // 
+            this.btnWählenKniffelS1.Location = new System.Drawing.Point(157, 319);
+            this.btnWählenKniffelS1.Name = "btnWählenKniffelS1";
+            this.btnWählenKniffelS1.Size = new System.Drawing.Size(75, 23);
+            this.btnWählenKniffelS1.TabIndex = 32;
+            this.btnWählenKniffelS1.Text = "Wählen";
+            this.btnWählenKniffelS1.UseVisualStyleBackColor = true;
+            // 
+            // btnWählenChanceS1
+            // 
+            this.btnWählenChanceS1.Location = new System.Drawing.Point(157, 343);
+            this.btnWählenChanceS1.Name = "btnWählenChanceS1";
+            this.btnWählenChanceS1.Size = new System.Drawing.Size(75, 23);
+            this.btnWählenChanceS1.TabIndex = 31;
+            this.btnWählenChanceS1.Text = "Wählen";
+            this.btnWählenChanceS1.UseVisualStyleBackColor = true;
+            // 
+            // btnWählenEinserS1
+            // 
+            this.btnWählenEinserS1.Location = new System.Drawing.Point(157, 41);
+            this.btnWählenEinserS1.Name = "btnWählenEinserS1";
+            this.btnWählenEinserS1.Size = new System.Drawing.Size(75, 23);
+            this.btnWählenEinserS1.TabIndex = 28;
+            this.btnWählenEinserS1.Text = "Wählen";
+            this.btnWählenEinserS1.UseVisualStyleBackColor = true;
+            // 
+            // lblSpieler2Name
+            // 
+            this.lblSpieler2Name.AutoSize = true;
+            this.lblSpieler2Name.Location = new System.Drawing.Point(434, 19);
+            this.lblSpieler2Name.Name = "lblSpieler2Name";
+            this.lblSpieler2Name.Size = new System.Drawing.Size(51, 15);
+            this.lblSpieler2Name.TabIndex = 27;
+            this.lblSpieler2Name.Text = "Spieler 2";
+            // 
+            // lblSpieler1Name
+            // 
+            this.lblSpieler1Name.AutoSize = true;
+            this.lblSpieler1Name.Location = new System.Drawing.Point(169, 19);
+            this.lblSpieler1Name.Name = "lblSpieler1Name";
+            this.lblSpieler1Name.Size = new System.Drawing.Size(51, 15);
+            this.lblSpieler1Name.TabIndex = 26;
+            this.lblSpieler1Name.Text = "Spieler 1";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(7, 463);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(47, 15);
+            this.label22.TabIndex = 25;
+            this.label22.Text = "Gesamt";
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(8, 390);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(75, 15);
+            this.label21.TabIndex = 24;
+            this.label21.Text = "Oberer Block";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(8, 414);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(102, 15);
+            this.label15.TabIndex = 23;
+            this.label15.Text = "Bonus (+35 ab 63)";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(8, 439);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(78, 15);
+            this.label14.TabIndex = 22;
+            this.label14.Text = "Unterer Block";
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.lblUebrigeWuerfel);
+            this.groupBox2.Controls.Add(this.pctWuerfel5);
+            this.groupBox2.Controls.Add(this.chkHalten5);
+            this.groupBox2.Controls.Add(this.pctWuerfel4);
+            this.groupBox2.Controls.Add(this.pctWuerfel2);
+            this.groupBox2.Controls.Add(this.pctWuerfel3);
+            this.groupBox2.Controls.Add(this.pctWuerfel1);
+            this.groupBox2.Controls.Add(this.chkHalten4);
+            this.groupBox2.Controls.Add(this.chkHalten2);
+            this.groupBox2.Controls.Add(this.chkHalten3);
+            this.groupBox2.Controls.Add(this.chkHalten1);
+            this.groupBox2.Controls.Add(this.label29);
+            this.groupBox2.Location = new System.Drawing.Point(23, 99);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(528, 154);
+            this.groupBox2.TabIndex = 23;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Würfel";
+            // 
+            // lblUebrigeWuerfel
+            // 
+            this.lblUebrigeWuerfel.AutoSize = true;
+            this.lblUebrigeWuerfel.Location = new System.Drawing.Point(456, 80);
+            this.lblUebrigeWuerfel.Name = "lblUebrigeWuerfel";
+            this.lblUebrigeWuerfel.Size = new System.Drawing.Size(13, 15);
+            this.lblUebrigeWuerfel.TabIndex = 12;
+            this.lblUebrigeWuerfel.Text = "3";
+            // 
+            // pctWuerfel5
+            // 
+            this.pctWuerfel5.Image = global::Kniffel.Properties.Resources.dice6;
+            this.pctWuerfel5.Location = new System.Drawing.Point(330, 41);
+            this.pctWuerfel5.Name = "pctWuerfel5";
+            this.pctWuerfel5.Size = new System.Drawing.Size(68, 62);
+            this.pctWuerfel5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pctWuerfel5.TabIndex = 11;
+            this.pctWuerfel5.TabStop = false;
+            // 
+            // chkHalten5
+            // 
+            this.chkHalten5.AutoSize = true;
+            this.chkHalten5.Location = new System.Drawing.Point(330, 117);
+            this.chkHalten5.Name = "chkHalten5";
+            this.chkHalten5.Size = new System.Drawing.Size(61, 19);
+            this.chkHalten5.TabIndex = 10;
+            this.chkHalten5.Text = "Halten";
+            this.chkHalten5.UseVisualStyleBackColor = true;
+            this.chkHalten5.Visible = false;
+            // 
+            // pctWuerfel4
+            // 
+            this.pctWuerfel4.Image = global::Kniffel.Properties.Resources.dice6;
+            this.pctWuerfel4.Location = new System.Drawing.Point(250, 41);
+            this.pctWuerfel4.Name = "pctWuerfel4";
+            this.pctWuerfel4.Size = new System.Drawing.Size(68, 62);
+            this.pctWuerfel4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pctWuerfel4.TabIndex = 9;
+            this.pctWuerfel4.TabStop = false;
+            // 
+            // pctWuerfel2
+            // 
+            this.pctWuerfel2.Image = global::Kniffel.Properties.Resources.dice6;
+            this.pctWuerfel2.Location = new System.Drawing.Point(93, 41);
+            this.pctWuerfel2.Name = "pctWuerfel2";
+            this.pctWuerfel2.Size = new System.Drawing.Size(68, 62);
+            this.pctWuerfel2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pctWuerfel2.TabIndex = 8;
+            this.pctWuerfel2.TabStop = false;
+            // 
+            // pctWuerfel3
+            // 
+            this.pctWuerfel3.Image = global::Kniffel.Properties.Resources.dice6;
+            this.pctWuerfel3.Location = new System.Drawing.Point(171, 41);
+            this.pctWuerfel3.Name = "pctWuerfel3";
+            this.pctWuerfel3.Size = new System.Drawing.Size(68, 62);
+            this.pctWuerfel3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pctWuerfel3.TabIndex = 7;
+            this.pctWuerfel3.TabStop = false;
+            // 
+            // pctWuerfel1
+            // 
+            this.pctWuerfel1.Image = global::Kniffel.Properties.Resources.dice6;
+            this.pctWuerfel1.Location = new System.Drawing.Point(15, 41);
+            this.pctWuerfel1.Name = "pctWuerfel1";
+            this.pctWuerfel1.Size = new System.Drawing.Size(68, 62);
+            this.pctWuerfel1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pctWuerfel1.TabIndex = 6;
+            this.pctWuerfel1.TabStop = false;
+            // 
+            // chkHalten4
+            // 
+            this.chkHalten4.AutoSize = true;
+            this.chkHalten4.Location = new System.Drawing.Point(250, 117);
+            this.chkHalten4.Name = "chkHalten4";
+            this.chkHalten4.Size = new System.Drawing.Size(61, 19);
+            this.chkHalten4.TabIndex = 5;
+            this.chkHalten4.Text = "Halten";
+            this.chkHalten4.UseVisualStyleBackColor = true;
+            this.chkHalten4.Visible = false;
+            // 
+            // chkHalten2
+            // 
+            this.chkHalten2.AutoSize = true;
+            this.chkHalten2.Location = new System.Drawing.Point(93, 117);
+            this.chkHalten2.Name = "chkHalten2";
+            this.chkHalten2.Size = new System.Drawing.Size(61, 19);
+            this.chkHalten2.TabIndex = 4;
+            this.chkHalten2.Text = "Halten";
+            this.chkHalten2.UseVisualStyleBackColor = true;
+            this.chkHalten2.Visible = false;
+            // 
+            // chkHalten3
+            // 
+            this.chkHalten3.AutoSize = true;
+            this.chkHalten3.Location = new System.Drawing.Point(171, 117);
+            this.chkHalten3.Name = "chkHalten3";
+            this.chkHalten3.Size = new System.Drawing.Size(61, 19);
+            this.chkHalten3.TabIndex = 3;
+            this.chkHalten3.Text = "Halten";
+            this.chkHalten3.UseVisualStyleBackColor = true;
+            this.chkHalten3.Visible = false;
+            // 
+            // chkHalten1
+            // 
+            this.chkHalten1.AutoSize = true;
+            this.chkHalten1.Location = new System.Drawing.Point(15, 117);
+            this.chkHalten1.Name = "chkHalten1";
+            this.chkHalten1.Size = new System.Drawing.Size(61, 19);
+            this.chkHalten1.TabIndex = 1;
+            this.chkHalten1.Text = "Halten";
+            this.chkHalten1.UseVisualStyleBackColor = true;
+            this.chkHalten1.Visible = false;
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Location = new System.Drawing.Point(423, 41);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(86, 15);
+            this.label29.TabIndex = 0;
+            this.label29.Text = "Würfe in dieser";
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.btnNeuesSpiel);
+            this.groupBox3.Controls.Add(this.btnRegeln);
+            this.groupBox3.Controls.Add(this.btnZug);
+            this.groupBox3.Controls.Add(this.btnWürfeln);
+            this.groupBox3.Location = new System.Drawing.Point(579, 99);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(283, 154);
+            this.groupBox3.TabIndex = 24;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Steuerung";
+            // 
+            // btnNeuesSpiel
+            // 
+            this.btnNeuesSpiel.Location = new System.Drawing.Point(170, 31);
+            this.btnNeuesSpiel.Name = "btnNeuesSpiel";
+            this.btnNeuesSpiel.Size = new System.Drawing.Size(88, 23);
+            this.btnNeuesSpiel.TabIndex = 3;
+            this.btnNeuesSpiel.Text = "Neues Spiel";
+            this.btnNeuesSpiel.UseVisualStyleBackColor = true;
+            this.btnNeuesSpiel.Click += new System.EventHandler(this.btnNeuesSpiel_Click);
+            // 
+            // btnRegeln
+            // 
+            this.btnRegeln.Location = new System.Drawing.Point(170, 80);
+            this.btnRegeln.Name = "btnRegeln";
+            this.btnRegeln.Size = new System.Drawing.Size(88, 23);
+            this.btnRegeln.TabIndex = 2;
+            this.btnRegeln.Text = "Regeln";
+            this.btnRegeln.UseVisualStyleBackColor = true;
+            // 
+            // btnZug
+            // 
+            this.btnZug.Location = new System.Drawing.Point(16, 80);
+            this.btnZug.Name = "btnZug";
+            this.btnZug.Size = new System.Drawing.Size(88, 23);
+            this.btnZug.TabIndex = 1;
+            this.btnZug.Text = "Zug";
+            this.btnZug.UseVisualStyleBackColor = true;
+            this.btnZug.Click += new System.EventHandler(this.btnZug_Click);
+            // 
+            // btnWürfeln
+            // 
+            this.btnWürfeln.Location = new System.Drawing.Point(16, 31);
+            this.btnWürfeln.Name = "btnWürfeln";
+            this.btnWürfeln.Size = new System.Drawing.Size(88, 23);
+            this.btnWürfeln.TabIndex = 0;
+            this.btnWürfeln.Text = "Würfeln";
+            this.btnWürfeln.UseVisualStyleBackColor = true;
+            this.btnWürfeln.Click += new System.EventHandler(this.btnWürfeln_Click);
+            // 
+            // tmrAnimation
+            // 
+            this.tmrAnimation.Interval = 15;
+            this.tmrAnimation.Tick += new System.EventHandler(this.tmrAnimation_Tick);
+            // 
+            // tmrAnimationStopper
+            // 
+            this.tmrAnimationStopper.Interval = 300;
+            this.tmrAnimationStopper.Tick += new System.EventHandler(this.tmrAnimationStopper_Tick);
+            // 
             // Kniffel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -1180,10 +1249,10 @@
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtSpieler2);
+            this.Controls.Add(this.txtSpieler1);
             this.Controls.Add(this.label16);
-            this.Controls.Add(this.label10);
+            this.Controls.Add(this.lblAktuellerSpieler);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label1);
             this.Name = "Kniffel";
@@ -1192,11 +1261,12 @@
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pctWuerfel5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctWuerfel4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctWuerfel2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctWuerfel3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctWuerfel1)).EndInit();
             this.groupBox3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1213,13 +1283,13 @@
         private Label label7;
         private Label label8;
         private Label label9;
-        private Label label10;
+        private Label lblAktuellerSpieler;
         private Label label11;
         private Label label12;
         private Label label13;
         private Label label16;
-        private TextBox textBox1;
-        private TextBox textBox2;
+        private TextBox txtSpieler1;
+        private TextBox txtSpieler2;
         private Label label17;
         private Label label18;
         private Label label19;
@@ -1255,8 +1325,8 @@
         private Button btnWählenKniffelS1;
         private Button btnWählenChanceS1;
         private Button btnWählenEinserS1;
-        private Label label24;
-        private Label label23;
+        private Label lblSpieler2Name;
+        private Label lblSpieler1Name;
         private Label label22;
         private Label label21;
         private Label label15;
@@ -1297,14 +1367,20 @@
         private Label label31;
         private Label label32;
         private Label label33;
-        private PictureBox pictureBox4;
+        private PictureBox pctWuerfel4;
         private PictureBox pictureBox3;
-        private PictureBox pictureBox2;
-        private PictureBox pictureBox1;
-        private CheckBox checkBox5;
-        private CheckBox checkBox4;
-        private CheckBox checkBox3;
-        private CheckBox checkBox1;
+        private PictureBox pctWuerfel3;
+        private PictureBox pctWuerfel1;
+        private CheckBox chkHalten4;
+        private CheckBox chkHalten2;
+        private CheckBox chkHalten3;
+        private CheckBox chkHalten1;
         private Label label29;
+        private PictureBox pctWuerfel5;
+        private CheckBox chkHalten5;
+        private PictureBox pctWuerfel2;
+        private System.Windows.Forms.Timer tmrAnimation;
+        private System.Windows.Forms.Timer tmrAnimationStopper;
+        private Label lblUebrigeWuerfel;
     }
 }
