@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\Git\\Kniffel\\Kniffel.csproj": {}
+    "C:\\Users\\erik.fynn.geiger\\Source\\Repos\\Ex0nl\\Kniffel\\Kniffel\\Kniffel.csproj": {}
   },
   "projects": {
-    "H:\\Git\\Kniffel\\Kniffel.csproj": {
+    "C:\\Users\\erik.fynn.geiger\\Source\\Repos\\Ex0nl\\Kniffel\\Kniffel\\Kniffel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Git\\Kniffel\\Kniffel.csproj",
+        "projectUniqueName": "C:\\Users\\erik.fynn.geiger\\Source\\Repos\\Ex0nl\\Kniffel\\Kniffel\\Kniffel.csproj",
         "projectName": "Kniffel",
-        "projectPath": "H:\\Git\\Kniffel\\Kniffel.csproj",
-        "packagesPath": "C:\\Users\\lavinia.schmitz\\.nuget\\packages\\",
-        "outputPath": "H:\\Git\\Kniffel\\obj\\",
+        "projectPath": "C:\\Users\\erik.fynn.geiger\\Source\\Repos\\Ex0nl\\Kniffel\\Kniffel\\Kniffel.csproj",
+        "packagesPath": "C:\\Users\\erik.fynn.geiger\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\erik.fynn.geiger\\Source\\Repos\\Ex0nl\\Kniffel\\Kniffel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

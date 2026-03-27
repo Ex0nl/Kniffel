@@ -5,6 +5,7 @@ namespace Kniffel
         public Kniffel()
         {
             InitializeComponent();
+            int banane = 1;
         }
     }
 }
