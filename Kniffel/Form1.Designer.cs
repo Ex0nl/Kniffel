@@ -68,7 +68,7 @@
             this.label45 = new System.Windows.Forms.Label();
             this.label44 = new System.Windows.Forms.Label();
             this.label43 = new System.Windows.Forms.Label();
-            this.label42 = new System.Windows.Forms.Label();
+            this.lblDreierpaschS1 = new System.Windows.Forms.Label();
             this.label41 = new System.Windows.Forms.Label();
             this.label40 = new System.Windows.Forms.Label();
             this.label39 = new System.Windows.Forms.Label();
@@ -346,7 +346,7 @@
             this.groupBox1.Controls.Add(this.label45);
             this.groupBox1.Controls.Add(this.label44);
             this.groupBox1.Controls.Add(this.label43);
-            this.groupBox1.Controls.Add(this.label42);
+            this.groupBox1.Controls.Add(this.lblDreierpaschS1);
             this.groupBox1.Controls.Add(this.label41);
             this.groupBox1.Controls.Add(this.label40);
             this.groupBox1.Controls.Add(this.label39);
@@ -595,15 +595,15 @@
             this.label43.TabIndex = 73;
             this.label43.Text = "-";
             // 
-            // label42
+            // lblDreierpaschS1
             // 
-            this.label42.AutoSize = true;
-            this.label42.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label42.Location = new System.Drawing.Point(256, 180);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(24, 32);
-            this.label42.TabIndex = 72;
-            this.label42.Text = "-";
+            this.lblDreierpaschS1.AutoSize = true;
+            this.lblDreierpaschS1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblDreierpaschS1.Location = new System.Drawing.Point(256, 180);
+            this.lblDreierpaschS1.Name = "lblDreierpaschS1";
+            this.lblDreierpaschS1.Size = new System.Drawing.Size(24, 32);
+            this.lblDreierpaschS1.TabIndex = 72;
+            this.lblDreierpaschS1.Text = "-";
             // 
             // label41
             // 
@@ -917,6 +917,7 @@
             this.btnWählenDreierpaschS1.TabIndex = 37;
             this.btnWählenDreierpaschS1.Text = "Wählen";
             this.btnWählenDreierpaschS1.UseVisualStyleBackColor = true;
+            this.btnWählenDreierpaschS1.Click += new System.EventHandler(this.btnWählenDreierpaschS1_Click);
             // 
             // btnWählenViererpaschS1
             // 
@@ -1355,7 +1356,7 @@
         private Label label45;
         private Label label44;
         private Label label43;
-        private Label label42;
+        private Label lblDreierpaschS1;
         private Label label41;
         private Label label40;
         private Label label39;

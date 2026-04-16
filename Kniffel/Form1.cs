@@ -5,13 +5,14 @@ namespace Kniffel
         public Kniffel()
         {
             InitializeComponent();
+            dice = new int[6];
         }
 
         Random rnd = new Random();
 
         int UebrigeWuerfe = 3;
         int Halten1, Halten2, Halten3, Halten4, Halten5;
-
+        int[] dice;
         public void Reset() // Reset-Funktion welches alle Werte auf die Ursprünglichen zurücksetzt
         {
             // Ändere die Spielernamen-Eingabe (Spieler 1) zurück zu "Spieler 1"
@@ -27,6 +28,51 @@ namespace Kniffel
             // Übrige Würfe auf Benutzeroberfläche zurücksetzen
             lblUebrigeWuerfel.Text = UebrigeWuerfe.ToString();
 
+        }
+
+        private void btnWählenDreierpaschS1_Click(object sender, EventArgs e)
+        {
+            // Array zum Zählen, wie oft jede Augenzahl (1-6) vorkommt
+            int[] counts = new int[7];
+            int summe = 0;
+            bool hatDreierpasch = false;
+
+            // Wir gehen durch dice[1] bis dice[5]
+            for (int i = 1; i <= 5; i++)
+            {
+                int wert = dice[i];
+                if (wert >= 1 && wert <= 6)
+                {
+                    counts[wert]++;
+                    summe += wert;
+                }
+            }
+
+            // Prüfen, ob eine Zahl 3x oder öfter vorkommt
+            for (int augenzahl = 1; augenzahl <= 6; augenzahl++)
+            {
+                if (counts[augenzahl] >= 3)
+                {
+                    hatDreierpasch = true;
+                    break;
+                }
+            }
+
+            if (hatDreierpasch)
+            {
+                lblDreierpaschS1.Text = summe.ToString();
+                btnWählenDreierpaschS1.Enabled = false;
+                btnZug_Click(sender, e);
+            }
+            else
+            {
+                if (MessageBox.Show("Kein Dreierpasch vorhanden. Feld streichen?", "Kniffel", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
+                    lblDreierpaschS1.Text = "0";
+                    btnWählenDreierpaschS1.Enabled = false;
+                    btnZug_Click(sender, e);
+                }
+            }
         }
 
         private void btnNeuesSpiel_Click(object sender, EventArgs e)
@@ -71,19 +117,22 @@ namespace Kniffel
 
         private void tmrAnimation_Tick(object sender, EventArgs e)
         {
-            // Generiere eine Zahl zwischen 1 und 6 für jeden Würfel, der nicht gehalten wird
-            if (!chkHalten1.Checked) Halten1 = rnd.Next(1, 7);
-            if (!chkHalten2.Checked) Halten2 = rnd.Next(1, 7);
-            if (!chkHalten3.Checked) Halten3 = rnd.Next(1, 7);
-            if (!chkHalten4.Checked) Halten4 = rnd.Next(1, 7);
-            if (!chkHalten5.Checked) Halten5 = rnd.Next(1, 7);
+            WuerfelnLogik();
+        }
 
-            // Ändere dynamisch die Bilder der Würfel nach Zahl
-            pctWuerfel1.Image = (Image)Properties.Resources.ResourceManager.GetObject($"dice{Halten1}");
-            pctWuerfel2.Image = (Image)Properties.Resources.ResourceManager.GetObject($"dice{Halten2}");
-            pctWuerfel3.Image = (Image)Properties.Resources.ResourceManager.GetObject($"dice{Halten3}");
-            pctWuerfel4.Image = (Image)Properties.Resources.ResourceManager.GetObject($"dice{Halten4}");
-            pctWuerfel5.Image = (Image)Properties.Resources.ResourceManager.GetObject($"dice{Halten5}");
+        private void WuerfelnLogik()
+        {
+            if (!chkHalten1.Checked) { Halten1 = rnd.Next(1, 7); dice[1] = Halten1; }
+            if (!chkHalten2.Checked) { Halten2 = rnd.Next(1, 7); dice[2] = Halten2; }
+            if (!chkHalten3.Checked) { Halten3 = rnd.Next(1, 7); dice[3] = Halten3; }
+            if (!chkHalten4.Checked) { Halten4 = rnd.Next(1, 7); dice[4] = Halten4; }
+            if (!chkHalten5.Checked) { Halten5 = rnd.Next(1, 7); dice[5] = Halten5; }
+
+            pctWuerfel1.Image = (Image)Properties.Resources.ResourceManager.GetObject($"dice{dice[1]}");
+            pctWuerfel2.Image = (Image)Properties.Resources.ResourceManager.GetObject($"dice{dice[2]}");
+            pctWuerfel3.Image = (Image)Properties.Resources.ResourceManager.GetObject($"dice{dice[3]}");
+            pctWuerfel4.Image = (Image)Properties.Resources.ResourceManager.GetObject($"dice{dice[4]}");
+            pctWuerfel5.Image = (Image)Properties.Resources.ResourceManager.GetObject($"dice{dice[5]}");
         }
 
         private void tmrAnimationStopper_Tick(object sender, EventArgs e)
@@ -91,39 +140,15 @@ namespace Kniffel
             tmrAnimation.Stop();
             tmrAnimationStopper.Stop();
 
-            // Generiere eine Zahl zwischen 1 und 6 für jeden Würfel, der nicht gehalten wird
-            if (!chkHalten1.Checked) Halten1 = rnd.Next(1, 7);
-            if (!chkHalten2.Checked) Halten2 = rnd.Next(1, 7);
-            if (!chkHalten3.Checked) Halten3 = rnd.Next(1, 7);
-            if (!chkHalten4.Checked) Halten4 = rnd.Next(1, 7);
-            if (!chkHalten5.Checked) Halten5 = rnd.Next(1, 7);
+            WuerfelnLogik(); // Ein letztes Mal die finalen Werte setzen
 
-            // Ändere dynamisch die Bilder der Würfel nach Zahl
-            pctWuerfel1.Image = (Image)Properties.Resources.ResourceManager.GetObject($"dice{Halten1}");
-            pctWuerfel2.Image = (Image)Properties.Resources.ResourceManager.GetObject($"dice{Halten2}");
-            pctWuerfel3.Image = (Image)Properties.Resources.ResourceManager.GetObject($"dice{Halten3}");
-            pctWuerfel4.Image = (Image)Properties.Resources.ResourceManager.GetObject($"dice{Halten4}");
-            pctWuerfel5.Image = (Image)Properties.Resources.ResourceManager.GetObject($"dice{Halten5}");
-
-            // Falls jede Halten-Checkbox abgehakt wurde
-            if
-                (
-                chkHalten1.Checked
-                && chkHalten2.Checked
-                && chkHalten3.Checked
-                && chkHalten4.Checked
-                && chkHalten5.Checked
-                )
+            if (chkHalten1.Checked && chkHalten2.Checked && chkHalten3.Checked && chkHalten4.Checked && chkHalten5.Checked)
             {
-                // Zeige MessageBox, die sagt dass ein Wurf mit diesen Bedingungen nicht möglich sei
-                MessageBox.Show("Es kann nicht gewürfelt werden, wenn alle Würfel gehalten werden. Falls du den Zug weitergeben möchtest, klicke Zug");
+                MessageBox.Show("Es kann nicht gewürfelt werden, wenn alle Würfel gehalten werden.");
             }
-            // Fals nicht jede Halten-Checkbox abgehakt wurde
             else
             {
-                // Subtrahiere "Übrige Würfe" um 1
                 UebrigeWuerfe--;
-                // Ändert die Anzeige der übrigen Würfen zu dem Integer-Wert der übrigen Würfen
                 lblUebrigeWuerfel.Text = UebrigeWuerfe.ToString();
             }
         }

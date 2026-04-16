@@ -16,3 +16,21 @@ C:\Users\erik.fynn.geiger\Source\Repos\Ex0nl\Kniffel\Kniffel\obj\Debug\net6.0-wi
 C:\Users\erik.fynn.geiger\Source\Repos\Ex0nl\Kniffel\Kniffel\obj\Debug\net6.0-windows\Kniffel.pdb
 C:\Users\erik.fynn.geiger\Source\Repos\Ex0nl\Kniffel\Kniffel\obj\Debug\net6.0-windows\Kniffel.genruntimeconfig.cache
 C:\Users\erik.fynn.geiger\Source\Repos\Ex0nl\Kniffel\Kniffel\obj\Debug\net6.0-windows\ref\Kniffel.dll
+H:\Desktop\Kniffel Neu\Kniffel\bin\Debug\net6.0-windows\Kniffel.exe
+H:\Desktop\Kniffel Neu\Kniffel\bin\Debug\net6.0-windows\Kniffel.deps.json
+H:\Desktop\Kniffel Neu\Kniffel\bin\Debug\net6.0-windows\Kniffel.runtimeconfig.json
+H:\Desktop\Kniffel Neu\Kniffel\bin\Debug\net6.0-windows\Kniffel.dll
+H:\Desktop\Kniffel Neu\Kniffel\bin\Debug\net6.0-windows\Kniffel.pdb
+H:\Desktop\Kniffel Neu\Kniffel\obj\Debug\net6.0-windows\Kniffel.csproj.AssemblyReference.cache
+H:\Desktop\Kniffel Neu\Kniffel\obj\Debug\net6.0-windows\Kniffel.Kniffel.resources
+H:\Desktop\Kniffel Neu\Kniffel\obj\Debug\net6.0-windows\Kniffel.Properties.Resources.resources
+H:\Desktop\Kniffel Neu\Kniffel\obj\Debug\net6.0-windows\Kniffel.csproj.GenerateResource.cache
+H:\Desktop\Kniffel Neu\Kniffel\obj\Debug\net6.0-windows\Kniffel.GeneratedMSBuildEditorConfig.editorconfig
+H:\Desktop\Kniffel Neu\Kniffel\obj\Debug\net6.0-windows\Kniffel.AssemblyInfoInputs.cache
+H:\Desktop\Kniffel Neu\Kniffel\obj\Debug\net6.0-windows\Kniffel.AssemblyInfo.cs
+H:\Desktop\Kniffel Neu\Kniffel\obj\Debug\net6.0-windows\Kniffel.csproj.CoreCompileInputs.cache
+H:\Desktop\Kniffel Neu\Kniffel\obj\Debug\net6.0-windows\Kniffel.dll
+H:\Desktop\Kniffel Neu\Kniffel\obj\Debug\net6.0-windows\refint\Kniffel.dll
+H:\Desktop\Kniffel Neu\Kniffel\obj\Debug\net6.0-windows\Kniffel.pdb
+H:\Desktop\Kniffel Neu\Kniffel\obj\Debug\net6.0-windows\Kniffel.genruntimeconfig.cache
+H:\Desktop\Kniffel Neu\Kniffel\obj\Debug\net6.0-windows\ref\Kniffel.dll
