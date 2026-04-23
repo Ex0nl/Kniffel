@@ -8,17 +8,17 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\l.baosic\\.nuget\\packages\\": {},
+    "C:\\Users\\erik.fynn.geiger\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\Desktop\\Kniffel Neu\\Kniffel\\Kniffel.csproj",
+      "projectUniqueName": "H:\\Dokumente\\SOFT\\Git\\Kniffel\\Kniffel\\Kniffel.csproj",
       "projectName": "Kniffel",
-      "projectPath": "H:\\Desktop\\Kniffel Neu\\Kniffel\\Kniffel.csproj",
-      "packagesPath": "C:\\Users\\l.baosic\\.nuget\\packages\\",
-      "outputPath": "H:\\Desktop\\Kniffel Neu\\Kniffel\\obj\\",
+      "projectPath": "H:\\Dokumente\\SOFT\\Git\\Kniffel\\Kniffel\\Kniffel.csproj",
+      "packagesPath": "C:\\Users\\erik.fynn.geiger\\.nuget\\packages\\",
+      "outputPath": "H:\\Dokumente\\SOFT\\Git\\Kniffel\\Kniffel\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

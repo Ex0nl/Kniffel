@@ -32,45 +32,96 @@ namespace Kniffel
 
         private void btnWählenDreierpaschS1_Click(object sender, EventArgs e)
         {
-            // Array zum Zählen, wie oft jede Augenzahl (1-6) vorkommt
-            int[] counts = new int[7];
-            int summe = 0;
-            bool hatDreierpasch = false;
-
-            // Wir gehen durch dice[1] bis dice[5]
-            for (int i = 1; i <= 5; i++)
+            if (AktuellerSpieler == 1) // Wenn der Aktuelle Spieler: Spieler 1 ist:
             {
-                int wert = dice[i];
-                if (wert >= 1 && wert <= 6)
+                // Array zum Zählen, wie oft jede Augenzahl (1-6) vorkommt
+                int[] counts = new int[7];
+                int summe = 0;
+                bool hatDreierpasch = false;
+
+                // Wir gehen durch dice[1] bis dice[5]
+                for (int i = 1; i <= 5; i++)
                 {
-                    counts[wert]++;
-                    summe += wert;
+                    int wert = dice[i];
+                    if (wert >= 1 && wert <= 6)
+                    {
+                        counts[wert]++;
+                        summe += wert;
+                    }
                 }
-            }
 
-            // Prüfen, ob eine Zahl 3x oder öfter vorkommt
-            for (int augenzahl = 1; augenzahl <= 6; augenzahl++)
-            {
-                if (counts[augenzahl] >= 3)
+                // Prüfen, ob eine Zahl 3x oder öfter vorkommt
+                for (int augenzahl = 1; augenzahl <= 6; augenzahl++)
                 {
-                    hatDreierpasch = true;
-                    break;
+                    if (counts[augenzahl] >= 3)
+                    {
+                        hatDreierpasch = true;
+                        break;
+                    }
                 }
-            }
 
-            if (hatDreierpasch)
-            {
-                lblDreierpaschS1.Text = summe.ToString();
-                btnWählenDreierpaschS1.Enabled = false;
-                btnZug_Click(sender, e);
-            }
-            else
-            {
-                if (MessageBox.Show("Kein Dreierpasch vorhanden. Feld streichen?", "Kniffel", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                if (hatDreierpasch)
                 {
-                    lblDreierpaschS1.Text = "0";
+                    lblDreierpaschS1.Text = summe.ToString();
                     btnWählenDreierpaschS1.Enabled = false;
                     btnZug_Click(sender, e);
+                }
+                else
+                {
+                    if (MessageBox.Show("Kein Dreierpasch vorhanden. Feld streichen?", "Kniffel", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                    {
+                        lblDreierpaschS1.Text = "0";
+                        btnWählenDreierpaschS1.Enabled = false;
+                        btnZug_Click(sender, e);
+                    }
+                }
+            }
+        }
+
+        private void btnWählenDreierpaschS2_Click(object sender, EventArgs e)
+        {
+            if (AktuellerSpieler == 2) // Wenn der Aktuelle Spieler: Spieler 2 ist:
+            {
+                // Array zum Zählen, wie oft jede Augenzahl (1-6) vorkommt
+                int[] counts = new int[7];
+                int summe = 0;
+                bool hatDreierpasch = false;
+
+                // Wir gehen durch dice[1] bis dice[5]
+                for (int i = 1; i <= 5; i++)
+                {
+                    int wert = dice[i];
+                    if (wert >= 1 && wert <= 6)
+                    {
+                        counts[wert]++;
+                        summe += wert;
+                    }
+                }
+
+                // Prüfen, ob eine Zahl 3x oder öfter vorkommt
+                for (int augenzahl = 1; augenzahl <= 6; augenzahl++)
+                {
+                    if (counts[augenzahl] >= 3)
+                    {
+                        hatDreierpasch = true;
+                        break;
+                    }
+                }
+
+                if (hatDreierpasch)
+                {
+                    lblDreierpaschS1.Text = summe.ToString();
+                    btnWählenDreierpaschS1.Enabled = false;
+                    btnZug_Click(sender, e);
+                }
+                else
+                {
+                    if (MessageBox.Show("Kein Dreierpasch vorhanden. Feld streichen?", "Kniffel", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                    {
+                        lblDreierpaschS1.Text = "0";
+                        btnWählenDreierpaschS1.Enabled = false;
+                        btnZug_Click(sender, e);
+                    }
                 }
             }
         }
@@ -150,6 +201,269 @@ namespace Kniffel
             {
                 UebrigeWuerfe--;
                 lblUebrigeWuerfel.Text = UebrigeWuerfe.ToString();
+            }
+        }
+
+        private void btnWählenEinserS1_Click(object sender, EventArgs e)
+        {
+            if (AktuellerSpieler == 1) // Falls der Aktuelle Spieler = 1 ist:
+            {
+                int summe = 0; // Initialisiere Integer-Variabel "summe" für den Summenwert auf 0
+
+                for (int i = 0; i < 6; i++) // Setzt Lokale Variabel "i" gleich 0; falls Variabel "i" kleiner ist, als 6; addiere 1 auf Iterationsvariabel "i":
+                {
+                    if (dice[i] == 1) // falls Würfel 1-5(je nach Iterationsnummer) = 1 ist:
+                    {
+                        summe++; // Addiere 1 auf dem Summenwert
+                    }
+                }
+
+                if (summe != 0) // Falls Summenwert nicht 0 ist:
+                {
+                    btnWählenEinserS1.Enabled = false; // Deaktiviert die Knopffunktion von btnWählenEinserS1
+                    lblEinserS1.Text = summe.ToString(); // Ändere den Punktestandtext zu der Summe
+                }
+            }
+        }
+
+        private void btnWählenEinserS2_Click(object sender, EventArgs e)
+        {
+            if (AktuellerSpieler == 2) // Falls der Aktuelle Spieler = 2 ist:
+            {
+                int summe = 0; // Initialisiere Integer-Variabel "summe" für den Summenwert auf 0
+
+                for (int i = 0; i < 6; i++) // Setzt Lokale Variabel "i" gleich 0; falls Variabel "i" kleiner ist, als 6; addiere 1 auf Iterationsvariabel "i":
+                {
+                    if (dice[i] == 1) // falls Würfel 1-5(je nach Iterationsnummer) = 1 ist:
+                    {
+                        summe++; // Addiere 1 auf dem Summenwert
+                    }
+                }
+
+                if (summe != 0) // Falls Summenwert nicht 0 ist:
+                {
+                    btnWählenEinserS2.Enabled = false; // Deaktiviert die Knopffunktion von btnWählenEinserS2
+                    lblEinserS2.Text = summe.ToString(); // Ändere den Punktestandtext zu der Summe
+                }
+            }
+        }
+
+        private void btnWählenZweierS1_Click(object sender, EventArgs e)
+        {
+            if (AktuellerSpieler == 1) // Falls der Aktuelle Spieler = 1 ist:
+            {
+                int summe = 0; // Initialisiere Integer-Variabel "summe" für den Summenwert auf 0
+
+                for (int i = 0; i < 6; i++) // Setzt Lokale Variabel "i" gleich 0; falls Variabel "i" kleiner ist, als 6; addiere 1 auf Iterationsvariabel "i":
+                {
+                    if (dice[i] == 2) // falls Würfel 1-5(je nach Iterationsnummer) = 2 ist:
+                    {
+                        summe +=2; // Addiere 2 auf dem Summenwert
+                    }
+                }
+
+                if (summe != 0) // Falls Summenwert nicht 0 ist:
+                {
+                    btnWählenZweierS1.Enabled = false; // Deaktiviert die Knopffunktion von btnWählenZweierS1
+                    lblZweierS1.Text = summe.ToString(); // Ändere den Punktestandtext zu der Summe
+                }
+            }
+        }
+
+        private void btnWählenZweierS2_Click(object sender, EventArgs e)
+        {
+            if (AktuellerSpieler == 2) // Falls der Aktuelle Spieler = 1 ist:
+            {
+                int summe = 0; // Initialisiere Integer-Variabel "summe" für den Summenwert auf 0
+
+                for (int i = 0; i < 6; i++) // Setzt Lokale Variabel "i" gleich 0; falls Variabel "i" kleiner ist, als 6; addiere 1 auf Iterationsvariabel "i":
+                {
+                    if (dice[i] == 2) // falls Würfel 1-5(je nach Iterationsnummer) = 2 ist:
+                    {
+                        summe +=2; // Addiere 2 auf dem Summenwert
+                    }
+                }
+
+                if (summe != 0) // Falls Summenwert nicht 0 ist:
+                {
+                    btnWählenZweierS2.Enabled = false; // Deaktiviert die Knopffunktion von btnWählenZweierS2
+                    lblZweierS2.Text = summe.ToString(); // Ändere den Punktestandtext zu der Summe
+                }
+            }
+        }
+        private void btnWählenDreierS1_Click(object sender, EventArgs e)
+        {
+            if (AktuellerSpieler == 1) // Falls der Aktuelle Spieler = 1 ist:
+            {
+                int summe = 0; // Initialisiere Integer-Variabel "summe" für den Summenwert auf 0
+
+                for (int i = 0; i < 6; i++) // Setzt Lokale Variabel "i" gleich 0; falls Variabel "i" kleiner ist, als 6; addiere 1 auf Iterationsvariabel "i":
+                {
+                    if (dice[i] == 3) // falls Würfel 1-5(je nach Iterationsnummer) = 3 ist:
+                    {
+                        summe += 3; // Addiere 3 auf dem Summenwert
+                    }
+                }
+
+                if (summe != 0) // Falls Summenwert nicht 0 ist:
+                {
+                    btnWählenDreierS1.Enabled = false; // Deaktiviert die Knopffunktion von btnWählenDreierS1
+                    lblDreierS1.Text = summe.ToString(); // Ändere den Punktestandtext zu der Summe
+                }
+            }
+        }
+
+        private void btnWählenDreierS2_Click(object sender, EventArgs e)
+        {
+            if (AktuellerSpieler == 2) // Falls der Aktuelle Spieler = 1 ist:
+            {
+                int summe = 0; // Initialisiere Integer-Variabel "summe" für den Summenwert auf 0
+
+                for (int i = 0; i < 6; i++) // Setzt Lokale Variabel "i" gleich 0; falls Variabel "i" kleiner ist, als 6; addiere 1 auf Iterationsvariabel "i":
+                {
+                    if (dice[i] == 3) // falls Würfel 1-5(je nach Iterationsnummer) = 3 ist:
+                    {
+                        summe += 3; // Addiere 3 auf dem Summenwert
+                    }
+                }
+
+                if (summe != 0) // Falls Summenwert nicht 0 ist:
+                {
+                    btnWählenDreierS2.Enabled = false; // Deaktiviert die Knopffunktion von btnWählenDreierS2
+                    lblDreierS2.Text = summe.ToString(); // Ändere den Punktestandtext zu der Summe
+                }
+            }
+        }
+
+        private void btnWählenViererS1_Click(object sender, EventArgs e)
+        {
+            if (AktuellerSpieler == 1) // Falls der Aktuelle Spieler = 1 ist:
+            {
+                int summe = 0; // Initialisiere Integer-Variabel "summe" für den Summenwert auf 0
+
+                for (int i = 0; i < 6; i++) // Setzt Lokale Variabel "i" gleich 0; falls Variabel "i" kleiner ist, als 6; addiere 1 auf Iterationsvariabel "i":
+                {
+                    if (dice[i] == 4) // falls Würfel 1-5(je nach Iterationsnummer) = 4 ist:
+                    {
+                        summe += 4; // Addiere 4 auf dem Summenwert
+                    }
+                }
+
+                if (summe != 0) // Falls Summenwert nicht 0 ist:
+                {
+                    btnWählenViererS1.Enabled = false; // Deaktiviert die Knopffunktion von btnWählenViererS1
+                    lblViererS1.Text = summe.ToString(); // Ändere den Punktestandtext zu der Summe
+                }
+            }
+        }
+
+        private void btnWählenViererS2_Click(object sender, EventArgs e)
+        {
+            if (AktuellerSpieler == 2) // Falls der Aktuelle Spieler = 2 ist:
+            {
+                int summe = 0; // Initialisiere Integer-Variabel "summe" für den Summenwert auf 0
+
+                for (int i = 0; i < 6; i++) // Setzt Lokale Variabel "i" gleich 0; falls Variabel "i" kleiner ist, als 6; addiere 1 auf Iterationsvariabel "i":
+                {
+                    if (dice[i] == 4) // falls Würfel 1-5(je nach Iterationsnummer) = 4 ist:
+                    {
+                        summe += 4; // Addiere 4 auf dem Summenwert
+                    }
+                }
+
+                if (summe != 0) // Falls Summenwert nicht 0 ist:
+                {
+                    btnWählenViererS2.Enabled = false; // Deaktiviert die Knopffunktion von btnWählenFünferS1
+                    lblViererS2.Text = summe.ToString(); // Ändere den Punktestandtext zu der Summe
+                }
+            }
+        }
+
+        private void btnWählenFünferS1_Click(object sender, EventArgs e)
+        {
+            if (AktuellerSpieler == 1) // Falls der Aktuelle Spieler = 1 ist:
+            {
+                int summe = 0; // Initialisiere Integer-Variabel "summe" für den Summenwert auf 0
+
+                for (int i = 0; i < 6; i++) // Setzt Lokale Variabel "i" gleich 0; falls Variabel "i" kleiner ist, als 6; addiere 1 auf Iterationsvariabel "i":
+                {
+                    if (dice[i] == 5) // falls Würfel 1-5(je nach Iterationsnummer) = 5 ist:
+                    {
+                        summe += 5; // Addiere 5 auf dem Summenwert
+                    }
+                }
+
+                if (summe != 0) // Falls Summenwert nicht 0 ist:
+                {
+                    btnWählenFünferS1.Enabled = false; // Deaktiviert die Knopffunktion von btnWählenFünferS1
+                    lblFünferS1.Text = summe.ToString(); // Ändere den Punktestandtext zu der Summe
+                }
+            }
+        }
+
+        private void btnWählenFünferS2_Click(object sender, EventArgs e)
+        {
+            if (AktuellerSpieler == 2) // Falls der Aktuelle Spieler = 2 ist:
+            {
+                int summe = 0; // Initialisiere Integer-Variabel "summe" für den Summenwert auf 0
+
+                for (int i = 0; i < 6; i++) // Setzt Lokale Variabel "i" gleich 0; falls Variabel "i" kleiner ist, als 6; addiere 1 auf Iterationsvariabel "i":
+                {
+                    if (dice[i] == 5) // falls Würfel 1-5(je nach Iterationsnummer) = 5 ist:
+                    {
+                        summe += 5; // Addiere 5 auf dem Summenwert
+                    }
+                }
+
+                if (summe != 0) // Falls Summenwert nicht 0 ist:
+                {
+                    btnWählenFünferS2.Enabled = false; // Deaktiviert die Knopffunktion von btnWählenFünferS2
+                    lblFünferS2.Text = summe.ToString(); // Ändere den Punktestandtext zu der Summe
+                }
+            }
+        }
+
+        private void btnWählenSechserS1_Click(object sender, EventArgs e)
+        {
+            if (AktuellerSpieler == 1) // Falls der Aktuelle Spieler = 2 ist:
+            {
+                int summe = 0; // Initialisiere Integer-Variabel "summe" für den Summenwert auf 0
+
+                for (int i = 0; i < 6; i++) // Setzt Lokale Variabel "i" gleich 0; falls Variabel "i" kleiner ist, als 6; addiere 1 auf Iterationsvariabel "i":
+                {
+                    if (dice[i] == 6) // falls Würfel 1-5(je nach Iterationsnummer) = 6 ist:
+                    {
+                        summe += 6; // Addiere 6 auf dem Summenwert
+                    }
+                }
+
+                if (summe != 0) // Falls Summenwert nicht 0 ist:
+                {
+                    btnWählenSechserS1.Enabled = false; // Deaktiviert die Knopffunktion von btnWählenSechserS1
+                    lblSechserS1.Text = summe.ToString(); // Ändere den Punktestandtext zu der Summe
+                }
+            }
+        }
+
+        private void btnWählenSechserS2_Click(object sender, EventArgs e)
+        {
+            if (AktuellerSpieler == 2) // Falls der Aktuelle Spieler = 2 ist:
+            {
+                int summe = 0; // Initialisiere Integer-Variabel "summe" für den Summenwert auf 0
+
+                for (int i = 0; i < 6; i++) // Setzt Lokale Variabel "i" gleich 0; falls Variabel "i" kleiner ist, als 6; addiere 1 auf Iterationsvariabel "i":
+                {
+                    if (dice[i] == 6) // falls Würfel 1-5(je nach Iterationsnummer) = 6 ist:
+                    {
+                        summe += 6; // Addiere 6 auf dem Summenwert
+                    }
+                }
+
+                if (summe != 0) // Falls Summenwert nicht 0 ist:
+                {
+                    btnWählenSechserS2.Enabled = false; // Deaktiviert die Knopffunktion von btnWählenSechserS2
+                    lblSechserS2.Text = summe.ToString(); // Ändere den Punktestandtext zu der Summe
+                }
             }
         }
 

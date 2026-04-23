@@ -50,11 +50,11 @@
             this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label35 = new System.Windows.Forms.Label();
-            this.label48 = new System.Windows.Forms.Label();
-            this.label49 = new System.Windows.Forms.Label();
-            this.label50 = new System.Windows.Forms.Label();
-            this.label51 = new System.Windows.Forms.Label();
+            this.lblDreierS2 = new System.Windows.Forms.Label();
+            this.lblZweierS2 = new System.Windows.Forms.Label();
+            this.lblViererS2 = new System.Windows.Forms.Label();
+            this.lblFünferS2 = new System.Windows.Forms.Label();
+            this.lblSechserS2 = new System.Windows.Forms.Label();
             this.label52 = new System.Windows.Forms.Label();
             this.label53 = new System.Windows.Forms.Label();
             this.label54 = new System.Windows.Forms.Label();
@@ -62,12 +62,12 @@
             this.label56 = new System.Windows.Forms.Label();
             this.label57 = new System.Windows.Forms.Label();
             this.label58 = new System.Windows.Forms.Label();
-            this.label59 = new System.Windows.Forms.Label();
-            this.label47 = new System.Windows.Forms.Label();
-            this.label46 = new System.Windows.Forms.Label();
-            this.label45 = new System.Windows.Forms.Label();
-            this.label44 = new System.Windows.Forms.Label();
-            this.label43 = new System.Windows.Forms.Label();
+            this.lblEinserS2 = new System.Windows.Forms.Label();
+            this.lblDreierS1 = new System.Windows.Forms.Label();
+            this.lblZweierS1 = new System.Windows.Forms.Label();
+            this.lblViererS1 = new System.Windows.Forms.Label();
+            this.lblFünferS1 = new System.Windows.Forms.Label();
+            this.lblSechserS1 = new System.Windows.Forms.Label();
             this.lblDreierpaschS1 = new System.Windows.Forms.Label();
             this.label41 = new System.Windows.Forms.Label();
             this.label40 = new System.Windows.Forms.Label();
@@ -75,7 +75,7 @@
             this.label38 = new System.Windows.Forms.Label();
             this.label37 = new System.Windows.Forms.Label();
             this.label36 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
+            this.lblEinserS1 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
             this.label32 = new System.Windows.Forms.Label();
@@ -328,11 +328,11 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.label35);
-            this.groupBox1.Controls.Add(this.label48);
-            this.groupBox1.Controls.Add(this.label49);
-            this.groupBox1.Controls.Add(this.label50);
-            this.groupBox1.Controls.Add(this.label51);
+            this.groupBox1.Controls.Add(this.lblDreierS2);
+            this.groupBox1.Controls.Add(this.lblZweierS2);
+            this.groupBox1.Controls.Add(this.lblViererS2);
+            this.groupBox1.Controls.Add(this.lblFünferS2);
+            this.groupBox1.Controls.Add(this.lblSechserS2);
             this.groupBox1.Controls.Add(this.label52);
             this.groupBox1.Controls.Add(this.label53);
             this.groupBox1.Controls.Add(this.label54);
@@ -340,12 +340,12 @@
             this.groupBox1.Controls.Add(this.label56);
             this.groupBox1.Controls.Add(this.label57);
             this.groupBox1.Controls.Add(this.label58);
-            this.groupBox1.Controls.Add(this.label59);
-            this.groupBox1.Controls.Add(this.label47);
-            this.groupBox1.Controls.Add(this.label46);
-            this.groupBox1.Controls.Add(this.label45);
-            this.groupBox1.Controls.Add(this.label44);
-            this.groupBox1.Controls.Add(this.label43);
+            this.groupBox1.Controls.Add(this.lblEinserS2);
+            this.groupBox1.Controls.Add(this.lblDreierS1);
+            this.groupBox1.Controls.Add(this.lblZweierS1);
+            this.groupBox1.Controls.Add(this.lblViererS1);
+            this.groupBox1.Controls.Add(this.lblFünferS1);
+            this.groupBox1.Controls.Add(this.lblSechserS1);
             this.groupBox1.Controls.Add(this.lblDreierpaschS1);
             this.groupBox1.Controls.Add(this.label41);
             this.groupBox1.Controls.Add(this.label40);
@@ -353,7 +353,7 @@
             this.groupBox1.Controls.Add(this.label38);
             this.groupBox1.Controls.Add(this.label37);
             this.groupBox1.Controls.Add(this.label36);
-            this.groupBox1.Controls.Add(this.label34);
+            this.groupBox1.Controls.Add(this.lblEinserS1);
             this.groupBox1.Controls.Add(this.label30);
             this.groupBox1.Controls.Add(this.label31);
             this.groupBox1.Controls.Add(this.label32);
@@ -415,55 +415,55 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Punkte";
             // 
-            // label35
+            // lblDreierS2
             // 
-            this.label35.AutoSize = true;
-            this.label35.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label35.Location = new System.Drawing.Point(529, 81);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(24, 32);
-            this.label35.TabIndex = 90;
-            this.label35.Text = "-";
+            this.lblDreierS2.AutoSize = true;
+            this.lblDreierS2.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblDreierS2.Location = new System.Drawing.Point(529, 81);
+            this.lblDreierS2.Name = "lblDreierS2";
+            this.lblDreierS2.Size = new System.Drawing.Size(24, 32);
+            this.lblDreierS2.TabIndex = 90;
+            this.lblDreierS2.Text = "-";
             // 
-            // label48
+            // lblZweierS2
             // 
-            this.label48.AutoSize = true;
-            this.label48.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label48.Location = new System.Drawing.Point(529, 56);
-            this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(24, 32);
-            this.label48.TabIndex = 89;
-            this.label48.Text = "-";
+            this.lblZweierS2.AutoSize = true;
+            this.lblZweierS2.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblZweierS2.Location = new System.Drawing.Point(529, 56);
+            this.lblZweierS2.Name = "lblZweierS2";
+            this.lblZweierS2.Size = new System.Drawing.Size(24, 32);
+            this.lblZweierS2.TabIndex = 89;
+            this.lblZweierS2.Text = "-";
             // 
-            // label49
+            // lblViererS2
             // 
-            this.label49.AutoSize = true;
-            this.label49.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label49.Location = new System.Drawing.Point(529, 105);
-            this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(24, 32);
-            this.label49.TabIndex = 88;
-            this.label49.Text = "-";
+            this.lblViererS2.AutoSize = true;
+            this.lblViererS2.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblViererS2.Location = new System.Drawing.Point(529, 105);
+            this.lblViererS2.Name = "lblViererS2";
+            this.lblViererS2.Size = new System.Drawing.Size(24, 32);
+            this.lblViererS2.TabIndex = 88;
+            this.lblViererS2.Text = "-";
             // 
-            // label50
+            // lblFünferS2
             // 
-            this.label50.AutoSize = true;
-            this.label50.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label50.Location = new System.Drawing.Point(529, 130);
-            this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(24, 32);
-            this.label50.TabIndex = 87;
-            this.label50.Text = "-";
+            this.lblFünferS2.AutoSize = true;
+            this.lblFünferS2.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblFünferS2.Location = new System.Drawing.Point(529, 130);
+            this.lblFünferS2.Name = "lblFünferS2";
+            this.lblFünferS2.Size = new System.Drawing.Size(24, 32);
+            this.lblFünferS2.TabIndex = 87;
+            this.lblFünferS2.Text = "-";
             // 
-            // label51
+            // lblSechserS2
             // 
-            this.label51.AutoSize = true;
-            this.label51.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label51.Location = new System.Drawing.Point(529, 156);
-            this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(24, 32);
-            this.label51.TabIndex = 86;
-            this.label51.Text = "-";
+            this.lblSechserS2.AutoSize = true;
+            this.lblSechserS2.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblSechserS2.Location = new System.Drawing.Point(529, 156);
+            this.lblSechserS2.Name = "lblSechserS2";
+            this.lblSechserS2.Size = new System.Drawing.Size(24, 32);
+            this.lblSechserS2.TabIndex = 86;
+            this.lblSechserS2.Text = "-";
             // 
             // label52
             // 
@@ -535,65 +535,65 @@
             this.label58.TabIndex = 79;
             this.label58.Text = "-";
             // 
-            // label59
+            // lblEinserS2
             // 
-            this.label59.AutoSize = true;
-            this.label59.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label59.Location = new System.Drawing.Point(529, 32);
-            this.label59.Name = "label59";
-            this.label59.Size = new System.Drawing.Size(24, 32);
-            this.label59.TabIndex = 78;
-            this.label59.Text = "-";
+            this.lblEinserS2.AutoSize = true;
+            this.lblEinserS2.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblEinserS2.Location = new System.Drawing.Point(529, 32);
+            this.lblEinserS2.Name = "lblEinserS2";
+            this.lblEinserS2.Size = new System.Drawing.Size(24, 32);
+            this.lblEinserS2.TabIndex = 78;
+            this.lblEinserS2.Text = "-";
             // 
-            // label47
+            // lblDreierS1
             // 
-            this.label47.AutoSize = true;
-            this.label47.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label47.Location = new System.Drawing.Point(256, 81);
-            this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(24, 32);
-            this.label47.TabIndex = 77;
-            this.label47.Text = "-";
+            this.lblDreierS1.AutoSize = true;
+            this.lblDreierS1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblDreierS1.Location = new System.Drawing.Point(256, 81);
+            this.lblDreierS1.Name = "lblDreierS1";
+            this.lblDreierS1.Size = new System.Drawing.Size(24, 32);
+            this.lblDreierS1.TabIndex = 77;
+            this.lblDreierS1.Text = "-";
             // 
-            // label46
+            // lblZweierS1
             // 
-            this.label46.AutoSize = true;
-            this.label46.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label46.Location = new System.Drawing.Point(256, 56);
-            this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(24, 32);
-            this.label46.TabIndex = 76;
-            this.label46.Text = "-";
+            this.lblZweierS1.AutoSize = true;
+            this.lblZweierS1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblZweierS1.Location = new System.Drawing.Point(256, 56);
+            this.lblZweierS1.Name = "lblZweierS1";
+            this.lblZweierS1.Size = new System.Drawing.Size(24, 32);
+            this.lblZweierS1.TabIndex = 76;
+            this.lblZweierS1.Text = "-";
             // 
-            // label45
+            // lblViererS1
             // 
-            this.label45.AutoSize = true;
-            this.label45.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label45.Location = new System.Drawing.Point(256, 105);
-            this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(24, 32);
-            this.label45.TabIndex = 75;
-            this.label45.Text = "-";
+            this.lblViererS1.AutoSize = true;
+            this.lblViererS1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblViererS1.Location = new System.Drawing.Point(256, 105);
+            this.lblViererS1.Name = "lblViererS1";
+            this.lblViererS1.Size = new System.Drawing.Size(24, 32);
+            this.lblViererS1.TabIndex = 75;
+            this.lblViererS1.Text = "-";
             // 
-            // label44
+            // lblFünferS1
             // 
-            this.label44.AutoSize = true;
-            this.label44.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label44.Location = new System.Drawing.Point(256, 130);
-            this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(24, 32);
-            this.label44.TabIndex = 74;
-            this.label44.Text = "-";
+            this.lblFünferS1.AutoSize = true;
+            this.lblFünferS1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblFünferS1.Location = new System.Drawing.Point(256, 130);
+            this.lblFünferS1.Name = "lblFünferS1";
+            this.lblFünferS1.Size = new System.Drawing.Size(24, 32);
+            this.lblFünferS1.TabIndex = 74;
+            this.lblFünferS1.Text = "-";
             // 
-            // label43
+            // lblSechserS1
             // 
-            this.label43.AutoSize = true;
-            this.label43.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label43.Location = new System.Drawing.Point(256, 156);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(24, 32);
-            this.label43.TabIndex = 73;
-            this.label43.Text = "-";
+            this.lblSechserS1.AutoSize = true;
+            this.lblSechserS1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblSechserS1.Location = new System.Drawing.Point(256, 156);
+            this.lblSechserS1.Name = "lblSechserS1";
+            this.lblSechserS1.Size = new System.Drawing.Size(24, 32);
+            this.lblSechserS1.TabIndex = 73;
+            this.lblSechserS1.Text = "-";
             // 
             // lblDreierpaschS1
             // 
@@ -665,15 +665,15 @@
             this.label36.TabIndex = 66;
             this.label36.Text = "-";
             // 
-            // label34
+            // lblEinserS1
             // 
-            this.label34.AutoSize = true;
-            this.label34.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label34.Location = new System.Drawing.Point(256, 32);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(24, 32);
-            this.label34.TabIndex = 64;
-            this.label34.Text = "-";
+            this.lblEinserS1.AutoSize = true;
+            this.lblEinserS1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblEinserS1.Location = new System.Drawing.Point(256, 32);
+            this.lblEinserS1.Name = "lblEinserS1";
+            this.lblEinserS1.Size = new System.Drawing.Size(24, 32);
+            this.lblEinserS1.TabIndex = 64;
+            this.lblEinserS1.Text = "-";
             // 
             // label30
             // 
@@ -755,6 +755,7 @@
             this.btnWählenZweierS2.TabIndex = 55;
             this.btnWählenZweierS2.Text = "Wählen";
             this.btnWählenZweierS2.UseVisualStyleBackColor = true;
+            this.btnWählenZweierS2.Click += new System.EventHandler(this.btnWählenZweierS2_Click);
             // 
             // btnWählenDreierS2
             // 
@@ -764,6 +765,7 @@
             this.btnWählenDreierS2.TabIndex = 54;
             this.btnWählenDreierS2.Text = "Wählen";
             this.btnWählenDreierS2.UseVisualStyleBackColor = true;
+            this.btnWählenDreierS2.Click += new System.EventHandler(this.btnWählenDreierS2_Click);
             // 
             // btnWählenViererS2
             // 
@@ -773,6 +775,7 @@
             this.btnWählenViererS2.TabIndex = 53;
             this.btnWählenViererS2.Text = "Wählen";
             this.btnWählenViererS2.UseVisualStyleBackColor = true;
+            this.btnWählenViererS2.Click += new System.EventHandler(this.btnWählenViererS2_Click);
             // 
             // btnWählenFünferS2
             // 
@@ -782,6 +785,7 @@
             this.btnWählenFünferS2.TabIndex = 52;
             this.btnWählenFünferS2.Text = "Wählen";
             this.btnWählenFünferS2.UseVisualStyleBackColor = true;
+            this.btnWählenFünferS2.Click += new System.EventHandler(this.btnWählenFünferS2_Click);
             // 
             // btnWählenSechserS2
             // 
@@ -791,6 +795,7 @@
             this.btnWählenSechserS2.TabIndex = 51;
             this.btnWählenSechserS2.Text = "Wählen";
             this.btnWählenSechserS2.UseVisualStyleBackColor = true;
+            this.btnWählenSechserS2.Click += new System.EventHandler(this.btnWählenSechserS2_Click);
             // 
             // btnWählenDreierpaschS2
             // 
@@ -800,6 +805,7 @@
             this.btnWählenDreierpaschS2.TabIndex = 50;
             this.btnWählenDreierpaschS2.Text = "Wählen";
             this.btnWählenDreierpaschS2.UseVisualStyleBackColor = true;
+            this.btnWählenDreierpaschS2.Click += new System.EventHandler(this.btnWählenDreierpaschS2_Click);
             // 
             // btnWählenViererpaschS2
             // 
@@ -863,6 +869,7 @@
             this.btnWählenEinserS2.TabIndex = 43;
             this.btnWählenEinserS2.Text = "Wählen";
             this.btnWählenEinserS2.UseVisualStyleBackColor = true;
+            this.btnWählenEinserS2.Click += new System.EventHandler(this.btnWählenEinserS2_Click);
             // 
             // btnWählenZweierS1
             // 
@@ -872,6 +879,7 @@
             this.btnWählenZweierS1.TabIndex = 42;
             this.btnWählenZweierS1.Text = "Wählen";
             this.btnWählenZweierS1.UseVisualStyleBackColor = true;
+            this.btnWählenZweierS1.Click += new System.EventHandler(this.btnWählenZweierS1_Click);
             // 
             // btnWählenDreierS1
             // 
@@ -881,6 +889,7 @@
             this.btnWählenDreierS1.TabIndex = 41;
             this.btnWählenDreierS1.Text = "Wählen";
             this.btnWählenDreierS1.UseVisualStyleBackColor = true;
+            this.btnWählenDreierS1.Click += new System.EventHandler(this.btnWählenDreierS1_Click);
             // 
             // btnWählenViererS1
             // 
@@ -890,6 +899,7 @@
             this.btnWählenViererS1.TabIndex = 40;
             this.btnWählenViererS1.Text = "Wählen";
             this.btnWählenViererS1.UseVisualStyleBackColor = true;
+            this.btnWählenViererS1.Click += new System.EventHandler(this.btnWählenViererS1_Click);
             // 
             // btnWählenFünferS1
             // 
@@ -899,6 +909,7 @@
             this.btnWählenFünferS1.TabIndex = 39;
             this.btnWählenFünferS1.Text = "Wählen";
             this.btnWählenFünferS1.UseVisualStyleBackColor = true;
+            this.btnWählenFünferS1.Click += new System.EventHandler(this.btnWählenFünferS1_Click);
             // 
             // btnWählenSechserS1
             // 
@@ -908,6 +919,7 @@
             this.btnWählenSechserS1.TabIndex = 38;
             this.btnWählenSechserS1.Text = "Wählen";
             this.btnWählenSechserS1.UseVisualStyleBackColor = true;
+            this.btnWählenSechserS1.Click += new System.EventHandler(this.btnWählenSechserS1_Click);
             // 
             // btnWählenDreierpaschS1
             // 
@@ -981,6 +993,7 @@
             this.btnWählenEinserS1.TabIndex = 28;
             this.btnWählenEinserS1.Text = "Wählen";
             this.btnWählenEinserS1.UseVisualStyleBackColor = true;
+            this.btnWählenEinserS1.Click += new System.EventHandler(this.btnWählenEinserS1_Click);
             // 
             // lblSpieler2Name
             // 
@@ -1338,11 +1351,11 @@
         private Button btnRegeln;
         private Button btnZug;
         private Button btnWürfeln;
-        private Label label35;
-        private Label label48;
-        private Label label49;
-        private Label label50;
-        private Label label51;
+        private Label lblDreierS2;
+        private Label lblZweierS2;
+        private Label lblViererS2;
+        private Label lblFünferS2;
+        private Label lblSechserS2;
         private Label label52;
         private Label label53;
         private Label label54;
@@ -1350,12 +1363,12 @@
         private Label label56;
         private Label label57;
         private Label label58;
-        private Label label59;
-        private Label label47;
-        private Label label46;
-        private Label label45;
-        private Label label44;
-        private Label label43;
+        private Label lblEinserS2;
+        private Label lblDreierS1;
+        private Label lblZweierS1;
+        private Label lblViererS1;
+        private Label lblFünferS1;
+        private Label lblSechserS1;
         private Label lblDreierpaschS1;
         private Label label41;
         private Label label40;
@@ -1363,7 +1376,7 @@
         private Label label38;
         private Label label37;
         private Label label36;
-        private Label label34;
+        private Label lblEinserS1;
         private Label label30;
         private Label label31;
         private Label label32;
