@@ -1224,6 +1224,7 @@
             this.btnRegeln.TabIndex = 2;
             this.btnRegeln.Text = "Regeln";
             this.btnRegeln.UseVisualStyleBackColor = true;
+            this.btnRegeln.Click += new System.EventHandler(this.btnRegeln_Click);
             // 
             // btnZug
             // 
@@ -1269,8 +1270,11 @@
             this.Controls.Add(this.lblAktuellerSpieler);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label1);
+            this.MaximumSize = new System.Drawing.Size(890, 850);
+            this.MinimumSize = new System.Drawing.Size(890, 850);
             this.Name = "Kniffel";
             this.Text = "Kniffel";
+            this.Load += new System.EventHandler(this.Kniffel_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
@@ -1382,7 +1386,6 @@
         private Label label32;
         private Label label33;
         private PictureBox pctWuerfel4;
-        private PictureBox pictureBox3;
         private PictureBox pctWuerfel3;
         private PictureBox pctWuerfel1;
         private CheckBox chkHalten4;

@@ -10,6 +10,7 @@ namespace Kniffel
 
         Random rnd = new Random();
 
+        bool formRegelnOpened = false;
         int UebrigeWuerfe = 3;
         int Halten1, Halten2, Halten3, Halten4, Halten5;
         int[] dice;
@@ -465,6 +466,28 @@ namespace Kniffel
                     lblSechserS2.Text = summe.ToString(); // Ändere den Punktestandtext zu der Summe
                 }
             }
+        }
+
+        private void Kniffel_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnRegeln_Click(object sender, EventArgs e)
+        {
+            Form formRegeln = new Form2(); // formRegeln Definieren
+            formRegeln.FormClosed += Form2_FormClosed; // Event-Listener Initialisieren für Funktion Form2_FormClosed()
+
+            if (!formRegelnOpened) // Falls Variabel formRegelnOpened false ist
+            {
+                formRegeln.Show(); // Öffne Regel-Formular 
+                formRegelnOpened = true; // Ändere Variabel formRegelnOpened zu true
+            }
+        }
+
+        private void Form2_FormClosed(object sender, FormClosedEventArgs e) // Listener-Event (Wenn Regel-Formular geschlossen wird)
+        {
+            formRegelnOpened = false; // Ändere Variabel formRegelnOpened zu false
         }
 
         private void btnWürfeln_Click(object sender, EventArgs e)

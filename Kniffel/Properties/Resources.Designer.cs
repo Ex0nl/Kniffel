@@ -119,5 +119,15 @@ namespace Kniffel.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Kniffel_Regeln_768x616_1 {
+            get {
+                object obj = ResourceManager.GetObject("Kniffel-Regeln-768x616-1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
