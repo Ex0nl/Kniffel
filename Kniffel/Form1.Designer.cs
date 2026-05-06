@@ -53,37 +53,37 @@
             this.lblDreierS2 = new System.Windows.Forms.Label();
             this.lblZweierS2 = new System.Windows.Forms.Label();
             this.lblViererS2 = new System.Windows.Forms.Label();
-            this.lblFünferS2 = new System.Windows.Forms.Label();
+            this.lblFuenferS2 = new System.Windows.Forms.Label();
             this.lblSechserS2 = new System.Windows.Forms.Label();
-            this.label52 = new System.Windows.Forms.Label();
-            this.label53 = new System.Windows.Forms.Label();
-            this.label54 = new System.Windows.Forms.Label();
-            this.label55 = new System.Windows.Forms.Label();
-            this.label56 = new System.Windows.Forms.Label();
-            this.label57 = new System.Windows.Forms.Label();
-            this.label58 = new System.Windows.Forms.Label();
+            this.lblDreierpaschS2 = new System.Windows.Forms.Label();
+            this.lblViererpaschS2 = new System.Windows.Forms.Label();
+            this.lblFullHouseS2 = new System.Windows.Forms.Label();
+            this.lblKleineStrasseS2 = new System.Windows.Forms.Label();
+            this.lblGrosseStrasseS2 = new System.Windows.Forms.Label();
+            this.lblChanceS2 = new System.Windows.Forms.Label();
+            this.lblKniffelS2 = new System.Windows.Forms.Label();
             this.lblEinserS2 = new System.Windows.Forms.Label();
             this.lblDreierS1 = new System.Windows.Forms.Label();
             this.lblZweierS1 = new System.Windows.Forms.Label();
             this.lblViererS1 = new System.Windows.Forms.Label();
-            this.lblFünferS1 = new System.Windows.Forms.Label();
+            this.lblFuenferS1 = new System.Windows.Forms.Label();
             this.lblSechserS1 = new System.Windows.Forms.Label();
             this.lblDreierpaschS1 = new System.Windows.Forms.Label();
-            this.label41 = new System.Windows.Forms.Label();
-            this.label40 = new System.Windows.Forms.Label();
-            this.label39 = new System.Windows.Forms.Label();
-            this.label38 = new System.Windows.Forms.Label();
-            this.label37 = new System.Windows.Forms.Label();
-            this.label36 = new System.Windows.Forms.Label();
+            this.lblViererpaschS1 = new System.Windows.Forms.Label();
+            this.lblFullHouseS1 = new System.Windows.Forms.Label();
+            this.lblKleineStrasseS1 = new System.Windows.Forms.Label();
+            this.lblGrosseStrasseS1 = new System.Windows.Forms.Label();
+            this.lblChanceS1 = new System.Windows.Forms.Label();
+            this.lblKniffelS1 = new System.Windows.Forms.Label();
             this.lblEinserS1 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
-            this.label33 = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
+            this.lblBonusS2 = new System.Windows.Forms.Label();
+            this.lblUntererBlockS2 = new System.Windows.Forms.Label();
+            this.lblGesamtS2 = new System.Windows.Forms.Label();
+            this.lblObererBlockS2 = new System.Windows.Forms.Label();
+            this.lblBonusS1 = new System.Windows.Forms.Label();
+            this.lblUntererBlockS1 = new System.Windows.Forms.Label();
+            this.lblGesamtS1 = new System.Windows.Forms.Label();
+            this.lblObererBlockS1 = new System.Windows.Forms.Label();
             this.btnWählenZweierS2 = new System.Windows.Forms.Button();
             this.btnWählenDreierS2 = new System.Windows.Forms.Button();
             this.btnWählenViererS2 = new System.Windows.Forms.Button();
@@ -92,7 +92,7 @@
             this.btnWählenDreierpaschS2 = new System.Windows.Forms.Button();
             this.btnWählenViererpaschS2 = new System.Windows.Forms.Button();
             this.btnWählenFullHouseS2 = new System.Windows.Forms.Button();
-            this.btnWählenKleineStraßeS2 = new System.Windows.Forms.Button();
+            this.btnWählenKleineStrasseS2 = new System.Windows.Forms.Button();
             this.btnWählenGroßeStraßeS2 = new System.Windows.Forms.Button();
             this.btnWählenKniffelS2 = new System.Windows.Forms.Button();
             this.btnWählenChanceS2 = new System.Windows.Forms.Button();
@@ -105,8 +105,8 @@
             this.btnWählenDreierpaschS1 = new System.Windows.Forms.Button();
             this.btnWählenViererpaschS1 = new System.Windows.Forms.Button();
             this.btnWählenFullHouseS1 = new System.Windows.Forms.Button();
-            this.btnWählenKleineStraßeS1 = new System.Windows.Forms.Button();
-            this.btnWählenGroßeStraßeS1 = new System.Windows.Forms.Button();
+            this.btnWählenKleineStrasseS1 = new System.Windows.Forms.Button();
+            this.btnWählenGrosseStrasseS1 = new System.Windows.Forms.Button();
             this.btnWählenKniffelS1 = new System.Windows.Forms.Button();
             this.btnWählenChanceS1 = new System.Windows.Forms.Button();
             this.btnWählenEinserS1 = new System.Windows.Forms.Button();
@@ -331,37 +331,37 @@
             this.groupBox1.Controls.Add(this.lblDreierS2);
             this.groupBox1.Controls.Add(this.lblZweierS2);
             this.groupBox1.Controls.Add(this.lblViererS2);
-            this.groupBox1.Controls.Add(this.lblFünferS2);
+            this.groupBox1.Controls.Add(this.lblFuenferS2);
             this.groupBox1.Controls.Add(this.lblSechserS2);
-            this.groupBox1.Controls.Add(this.label52);
-            this.groupBox1.Controls.Add(this.label53);
-            this.groupBox1.Controls.Add(this.label54);
-            this.groupBox1.Controls.Add(this.label55);
-            this.groupBox1.Controls.Add(this.label56);
-            this.groupBox1.Controls.Add(this.label57);
-            this.groupBox1.Controls.Add(this.label58);
+            this.groupBox1.Controls.Add(this.lblDreierpaschS2);
+            this.groupBox1.Controls.Add(this.lblViererpaschS2);
+            this.groupBox1.Controls.Add(this.lblFullHouseS2);
+            this.groupBox1.Controls.Add(this.lblKleineStrasseS2);
+            this.groupBox1.Controls.Add(this.lblGrosseStrasseS2);
+            this.groupBox1.Controls.Add(this.lblChanceS2);
+            this.groupBox1.Controls.Add(this.lblKniffelS2);
             this.groupBox1.Controls.Add(this.lblEinserS2);
             this.groupBox1.Controls.Add(this.lblDreierS1);
             this.groupBox1.Controls.Add(this.lblZweierS1);
             this.groupBox1.Controls.Add(this.lblViererS1);
-            this.groupBox1.Controls.Add(this.lblFünferS1);
+            this.groupBox1.Controls.Add(this.lblFuenferS1);
             this.groupBox1.Controls.Add(this.lblSechserS1);
             this.groupBox1.Controls.Add(this.lblDreierpaschS1);
-            this.groupBox1.Controls.Add(this.label41);
-            this.groupBox1.Controls.Add(this.label40);
-            this.groupBox1.Controls.Add(this.label39);
-            this.groupBox1.Controls.Add(this.label38);
-            this.groupBox1.Controls.Add(this.label37);
-            this.groupBox1.Controls.Add(this.label36);
+            this.groupBox1.Controls.Add(this.lblViererpaschS1);
+            this.groupBox1.Controls.Add(this.lblFullHouseS1);
+            this.groupBox1.Controls.Add(this.lblKleineStrasseS1);
+            this.groupBox1.Controls.Add(this.lblGrosseStrasseS1);
+            this.groupBox1.Controls.Add(this.lblChanceS1);
+            this.groupBox1.Controls.Add(this.lblKniffelS1);
             this.groupBox1.Controls.Add(this.lblEinserS1);
-            this.groupBox1.Controls.Add(this.label30);
-            this.groupBox1.Controls.Add(this.label31);
-            this.groupBox1.Controls.Add(this.label32);
-            this.groupBox1.Controls.Add(this.label33);
-            this.groupBox1.Controls.Add(this.label28);
-            this.groupBox1.Controls.Add(this.label27);
-            this.groupBox1.Controls.Add(this.label26);
-            this.groupBox1.Controls.Add(this.label25);
+            this.groupBox1.Controls.Add(this.lblBonusS2);
+            this.groupBox1.Controls.Add(this.lblUntererBlockS2);
+            this.groupBox1.Controls.Add(this.lblGesamtS2);
+            this.groupBox1.Controls.Add(this.lblObererBlockS2);
+            this.groupBox1.Controls.Add(this.lblBonusS1);
+            this.groupBox1.Controls.Add(this.lblUntererBlockS1);
+            this.groupBox1.Controls.Add(this.lblGesamtS1);
+            this.groupBox1.Controls.Add(this.lblObererBlockS1);
             this.groupBox1.Controls.Add(this.btnWählenZweierS2);
             this.groupBox1.Controls.Add(this.btnWählenDreierS2);
             this.groupBox1.Controls.Add(this.btnWählenViererS2);
@@ -370,7 +370,7 @@
             this.groupBox1.Controls.Add(this.btnWählenDreierpaschS2);
             this.groupBox1.Controls.Add(this.btnWählenViererpaschS2);
             this.groupBox1.Controls.Add(this.btnWählenFullHouseS2);
-            this.groupBox1.Controls.Add(this.btnWählenKleineStraßeS2);
+            this.groupBox1.Controls.Add(this.btnWählenKleineStrasseS2);
             this.groupBox1.Controls.Add(this.btnWählenGroßeStraßeS2);
             this.groupBox1.Controls.Add(this.btnWählenKniffelS2);
             this.groupBox1.Controls.Add(this.btnWählenChanceS2);
@@ -383,8 +383,8 @@
             this.groupBox1.Controls.Add(this.btnWählenDreierpaschS1);
             this.groupBox1.Controls.Add(this.btnWählenViererpaschS1);
             this.groupBox1.Controls.Add(this.btnWählenFullHouseS1);
-            this.groupBox1.Controls.Add(this.btnWählenKleineStraßeS1);
-            this.groupBox1.Controls.Add(this.btnWählenGroßeStraßeS1);
+            this.groupBox1.Controls.Add(this.btnWählenKleineStrasseS1);
+            this.groupBox1.Controls.Add(this.btnWählenGrosseStrasseS1);
             this.groupBox1.Controls.Add(this.btnWählenKniffelS1);
             this.groupBox1.Controls.Add(this.btnWählenChanceS1);
             this.groupBox1.Controls.Add(this.btnWählenEinserS1);
@@ -445,15 +445,15 @@
             this.lblViererS2.TabIndex = 88;
             this.lblViererS2.Text = "-";
             // 
-            // lblFünferS2
+            // lblFuenferS2
             // 
-            this.lblFünferS2.AutoSize = true;
-            this.lblFünferS2.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblFünferS2.Location = new System.Drawing.Point(529, 130);
-            this.lblFünferS2.Name = "lblFünferS2";
-            this.lblFünferS2.Size = new System.Drawing.Size(24, 32);
-            this.lblFünferS2.TabIndex = 87;
-            this.lblFünferS2.Text = "-";
+            this.lblFuenferS2.AutoSize = true;
+            this.lblFuenferS2.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblFuenferS2.Location = new System.Drawing.Point(529, 130);
+            this.lblFuenferS2.Name = "lblFuenferS2";
+            this.lblFuenferS2.Size = new System.Drawing.Size(24, 32);
+            this.lblFuenferS2.TabIndex = 87;
+            this.lblFuenferS2.Text = "-";
             // 
             // lblSechserS2
             // 
@@ -465,75 +465,75 @@
             this.lblSechserS2.TabIndex = 86;
             this.lblSechserS2.Text = "-";
             // 
-            // label52
+            // lblDreierpaschS2
             // 
-            this.label52.AutoSize = true;
-            this.label52.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label52.Location = new System.Drawing.Point(529, 180);
-            this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(24, 32);
-            this.label52.TabIndex = 85;
-            this.label52.Text = "-";
+            this.lblDreierpaschS2.AutoSize = true;
+            this.lblDreierpaschS2.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblDreierpaschS2.Location = new System.Drawing.Point(529, 180);
+            this.lblDreierpaschS2.Name = "lblDreierpaschS2";
+            this.lblDreierpaschS2.Size = new System.Drawing.Size(24, 32);
+            this.lblDreierpaschS2.TabIndex = 85;
+            this.lblDreierpaschS2.Text = "-";
             // 
-            // label53
+            // lblViererpaschS2
             // 
-            this.label53.AutoSize = true;
-            this.label53.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label53.Location = new System.Drawing.Point(529, 205);
-            this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(24, 32);
-            this.label53.TabIndex = 84;
-            this.label53.Text = "-";
+            this.lblViererpaschS2.AutoSize = true;
+            this.lblViererpaschS2.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblViererpaschS2.Location = new System.Drawing.Point(529, 205);
+            this.lblViererpaschS2.Name = "lblViererpaschS2";
+            this.lblViererpaschS2.Size = new System.Drawing.Size(24, 32);
+            this.lblViererpaschS2.TabIndex = 84;
+            this.lblViererpaschS2.Text = "-";
             // 
-            // label54
+            // lblFullHouseS2
             // 
-            this.label54.AutoSize = true;
-            this.label54.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label54.Location = new System.Drawing.Point(529, 233);
-            this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(24, 32);
-            this.label54.TabIndex = 83;
-            this.label54.Text = "-";
+            this.lblFullHouseS2.AutoSize = true;
+            this.lblFullHouseS2.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblFullHouseS2.Location = new System.Drawing.Point(529, 233);
+            this.lblFullHouseS2.Name = "lblFullHouseS2";
+            this.lblFullHouseS2.Size = new System.Drawing.Size(24, 32);
+            this.lblFullHouseS2.TabIndex = 83;
+            this.lblFullHouseS2.Text = "-";
             // 
-            // label55
+            // lblKleineStrasseS2
             // 
-            this.label55.AutoSize = true;
-            this.label55.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label55.Location = new System.Drawing.Point(529, 259);
-            this.label55.Name = "label55";
-            this.label55.Size = new System.Drawing.Size(24, 32);
-            this.label55.TabIndex = 82;
-            this.label55.Text = "-";
+            this.lblKleineStrasseS2.AutoSize = true;
+            this.lblKleineStrasseS2.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblKleineStrasseS2.Location = new System.Drawing.Point(529, 259);
+            this.lblKleineStrasseS2.Name = "lblKleineStrasseS2";
+            this.lblKleineStrasseS2.Size = new System.Drawing.Size(24, 32);
+            this.lblKleineStrasseS2.TabIndex = 82;
+            this.lblKleineStrasseS2.Text = "-";
             // 
-            // label56
+            // lblGrosseStrasseS2
             // 
-            this.label56.AutoSize = true;
-            this.label56.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label56.Location = new System.Drawing.Point(529, 286);
-            this.label56.Name = "label56";
-            this.label56.Size = new System.Drawing.Size(24, 32);
-            this.label56.TabIndex = 81;
-            this.label56.Text = "-";
+            this.lblGrosseStrasseS2.AutoSize = true;
+            this.lblGrosseStrasseS2.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblGrosseStrasseS2.Location = new System.Drawing.Point(529, 286);
+            this.lblGrosseStrasseS2.Name = "lblGrosseStrasseS2";
+            this.lblGrosseStrasseS2.Size = new System.Drawing.Size(24, 32);
+            this.lblGrosseStrasseS2.TabIndex = 81;
+            this.lblGrosseStrasseS2.Text = "-";
             // 
-            // label57
+            // lblChanceS2
             // 
-            this.label57.AutoSize = true;
-            this.label57.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label57.Location = new System.Drawing.Point(529, 337);
-            this.label57.Name = "label57";
-            this.label57.Size = new System.Drawing.Size(24, 32);
-            this.label57.TabIndex = 80;
-            this.label57.Text = "-";
+            this.lblChanceS2.AutoSize = true;
+            this.lblChanceS2.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblChanceS2.Location = new System.Drawing.Point(529, 337);
+            this.lblChanceS2.Name = "lblChanceS2";
+            this.lblChanceS2.Size = new System.Drawing.Size(24, 32);
+            this.lblChanceS2.TabIndex = 80;
+            this.lblChanceS2.Text = "-";
             // 
-            // label58
+            // lblKniffelS2
             // 
-            this.label58.AutoSize = true;
-            this.label58.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label58.Location = new System.Drawing.Point(529, 310);
-            this.label58.Name = "label58";
-            this.label58.Size = new System.Drawing.Size(24, 32);
-            this.label58.TabIndex = 79;
-            this.label58.Text = "-";
+            this.lblKniffelS2.AutoSize = true;
+            this.lblKniffelS2.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblKniffelS2.Location = new System.Drawing.Point(529, 310);
+            this.lblKniffelS2.Name = "lblKniffelS2";
+            this.lblKniffelS2.Size = new System.Drawing.Size(24, 32);
+            this.lblKniffelS2.TabIndex = 79;
+            this.lblKniffelS2.Text = "-";
             // 
             // lblEinserS2
             // 
@@ -575,15 +575,15 @@
             this.lblViererS1.TabIndex = 75;
             this.lblViererS1.Text = "-";
             // 
-            // lblFünferS1
+            // lblFuenferS1
             // 
-            this.lblFünferS1.AutoSize = true;
-            this.lblFünferS1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblFünferS1.Location = new System.Drawing.Point(256, 130);
-            this.lblFünferS1.Name = "lblFünferS1";
-            this.lblFünferS1.Size = new System.Drawing.Size(24, 32);
-            this.lblFünferS1.TabIndex = 74;
-            this.lblFünferS1.Text = "-";
+            this.lblFuenferS1.AutoSize = true;
+            this.lblFuenferS1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblFuenferS1.Location = new System.Drawing.Point(256, 130);
+            this.lblFuenferS1.Name = "lblFuenferS1";
+            this.lblFuenferS1.Size = new System.Drawing.Size(24, 32);
+            this.lblFuenferS1.TabIndex = 74;
+            this.lblFuenferS1.Text = "-";
             // 
             // lblSechserS1
             // 
@@ -605,65 +605,65 @@
             this.lblDreierpaschS1.TabIndex = 72;
             this.lblDreierpaschS1.Text = "-";
             // 
-            // label41
+            // lblViererpaschS1
             // 
-            this.label41.AutoSize = true;
-            this.label41.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label41.Location = new System.Drawing.Point(256, 205);
-            this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(24, 32);
-            this.label41.TabIndex = 71;
-            this.label41.Text = "-";
+            this.lblViererpaschS1.AutoSize = true;
+            this.lblViererpaschS1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblViererpaschS1.Location = new System.Drawing.Point(256, 205);
+            this.lblViererpaschS1.Name = "lblViererpaschS1";
+            this.lblViererpaschS1.Size = new System.Drawing.Size(24, 32);
+            this.lblViererpaschS1.TabIndex = 71;
+            this.lblViererpaschS1.Text = "-";
             // 
-            // label40
+            // lblFullHouseS1
             // 
-            this.label40.AutoSize = true;
-            this.label40.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label40.Location = new System.Drawing.Point(256, 233);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(24, 32);
-            this.label40.TabIndex = 70;
-            this.label40.Text = "-";
+            this.lblFullHouseS1.AutoSize = true;
+            this.lblFullHouseS1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblFullHouseS1.Location = new System.Drawing.Point(256, 233);
+            this.lblFullHouseS1.Name = "lblFullHouseS1";
+            this.lblFullHouseS1.Size = new System.Drawing.Size(24, 32);
+            this.lblFullHouseS1.TabIndex = 70;
+            this.lblFullHouseS1.Text = "-";
             // 
-            // label39
+            // lblKleineStrasseS1
             // 
-            this.label39.AutoSize = true;
-            this.label39.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label39.Location = new System.Drawing.Point(256, 259);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(24, 32);
-            this.label39.TabIndex = 69;
-            this.label39.Text = "-";
+            this.lblKleineStrasseS1.AutoSize = true;
+            this.lblKleineStrasseS1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblKleineStrasseS1.Location = new System.Drawing.Point(256, 259);
+            this.lblKleineStrasseS1.Name = "lblKleineStrasseS1";
+            this.lblKleineStrasseS1.Size = new System.Drawing.Size(24, 32);
+            this.lblKleineStrasseS1.TabIndex = 69;
+            this.lblKleineStrasseS1.Text = "-";
             // 
-            // label38
+            // lblGrosseStrasseS1
             // 
-            this.label38.AutoSize = true;
-            this.label38.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label38.Location = new System.Drawing.Point(256, 286);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(24, 32);
-            this.label38.TabIndex = 68;
-            this.label38.Text = "-";
+            this.lblGrosseStrasseS1.AutoSize = true;
+            this.lblGrosseStrasseS1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblGrosseStrasseS1.Location = new System.Drawing.Point(256, 286);
+            this.lblGrosseStrasseS1.Name = "lblGrosseStrasseS1";
+            this.lblGrosseStrasseS1.Size = new System.Drawing.Size(24, 32);
+            this.lblGrosseStrasseS1.TabIndex = 68;
+            this.lblGrosseStrasseS1.Text = "-";
             // 
-            // label37
+            // lblChanceS1
             // 
-            this.label37.AutoSize = true;
-            this.label37.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label37.Location = new System.Drawing.Point(256, 337);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(24, 32);
-            this.label37.TabIndex = 67;
-            this.label37.Text = "-";
+            this.lblChanceS1.AutoSize = true;
+            this.lblChanceS1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblChanceS1.Location = new System.Drawing.Point(256, 337);
+            this.lblChanceS1.Name = "lblChanceS1";
+            this.lblChanceS1.Size = new System.Drawing.Size(24, 32);
+            this.lblChanceS1.TabIndex = 67;
+            this.lblChanceS1.Text = "-";
             // 
-            // label36
+            // lblKniffelS1
             // 
-            this.label36.AutoSize = true;
-            this.label36.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label36.Location = new System.Drawing.Point(256, 310);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(24, 32);
-            this.label36.TabIndex = 66;
-            this.label36.Text = "-";
+            this.lblKniffelS1.AutoSize = true;
+            this.lblKniffelS1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblKniffelS1.Location = new System.Drawing.Point(256, 310);
+            this.lblKniffelS1.Name = "lblKniffelS1";
+            this.lblKniffelS1.Size = new System.Drawing.Size(24, 32);
+            this.lblKniffelS1.TabIndex = 66;
+            this.lblKniffelS1.Text = "-";
             // 
             // lblEinserS1
             // 
@@ -675,77 +675,77 @@
             this.lblEinserS1.TabIndex = 64;
             this.lblEinserS1.Text = "-";
             // 
-            // label30
+            // lblBonusS2
             // 
-            this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(529, 414);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(13, 15);
-            this.label30.TabIndex = 63;
-            this.label30.Text = "0";
+            this.lblBonusS2.AutoSize = true;
+            this.lblBonusS2.Location = new System.Drawing.Point(529, 414);
+            this.lblBonusS2.Name = "lblBonusS2";
+            this.lblBonusS2.Size = new System.Drawing.Size(13, 15);
+            this.lblBonusS2.TabIndex = 63;
+            this.lblBonusS2.Text = "0";
             // 
-            // label31
+            // lblUntererBlockS2
             // 
-            this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(529, 439);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(13, 15);
-            this.label31.TabIndex = 62;
-            this.label31.Text = "0";
+            this.lblUntererBlockS2.AutoSize = true;
+            this.lblUntererBlockS2.Location = new System.Drawing.Point(529, 439);
+            this.lblUntererBlockS2.Name = "lblUntererBlockS2";
+            this.lblUntererBlockS2.Size = new System.Drawing.Size(13, 15);
+            this.lblUntererBlockS2.TabIndex = 62;
+            this.lblUntererBlockS2.Text = "0";
             // 
-            // label32
+            // lblGesamtS2
             // 
-            this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(529, 463);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(13, 15);
-            this.label32.TabIndex = 61;
-            this.label32.Text = "0";
+            this.lblGesamtS2.AutoSize = true;
+            this.lblGesamtS2.Location = new System.Drawing.Point(529, 463);
+            this.lblGesamtS2.Name = "lblGesamtS2";
+            this.lblGesamtS2.Size = new System.Drawing.Size(13, 15);
+            this.lblGesamtS2.TabIndex = 61;
+            this.lblGesamtS2.Text = "0";
             // 
-            // label33
+            // lblObererBlockS2
             // 
-            this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(529, 390);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(13, 15);
-            this.label33.TabIndex = 60;
-            this.label33.Text = "0";
+            this.lblObererBlockS2.AutoSize = true;
+            this.lblObererBlockS2.Location = new System.Drawing.Point(529, 390);
+            this.lblObererBlockS2.Name = "lblObererBlockS2";
+            this.lblObererBlockS2.Size = new System.Drawing.Size(13, 15);
+            this.lblObererBlockS2.TabIndex = 60;
+            this.lblObererBlockS2.Text = "0";
             // 
-            // label28
+            // lblBonusS1
             // 
-            this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(267, 414);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(13, 15);
-            this.label28.TabIndex = 59;
-            this.label28.Text = "0";
+            this.lblBonusS1.AutoSize = true;
+            this.lblBonusS1.Location = new System.Drawing.Point(267, 414);
+            this.lblBonusS1.Name = "lblBonusS1";
+            this.lblBonusS1.Size = new System.Drawing.Size(13, 15);
+            this.lblBonusS1.TabIndex = 59;
+            this.lblBonusS1.Text = "0";
             // 
-            // label27
+            // lblUntererBlockS1
             // 
-            this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(267, 439);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(13, 15);
-            this.label27.TabIndex = 58;
-            this.label27.Text = "0";
+            this.lblUntererBlockS1.AutoSize = true;
+            this.lblUntererBlockS1.Location = new System.Drawing.Point(267, 439);
+            this.lblUntererBlockS1.Name = "lblUntererBlockS1";
+            this.lblUntererBlockS1.Size = new System.Drawing.Size(13, 15);
+            this.lblUntererBlockS1.TabIndex = 58;
+            this.lblUntererBlockS1.Text = "0";
             // 
-            // label26
+            // lblGesamtS1
             // 
-            this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(267, 463);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(13, 15);
-            this.label26.TabIndex = 57;
-            this.label26.Text = "0";
+            this.lblGesamtS1.AutoSize = true;
+            this.lblGesamtS1.Location = new System.Drawing.Point(267, 463);
+            this.lblGesamtS1.Name = "lblGesamtS1";
+            this.lblGesamtS1.Size = new System.Drawing.Size(13, 15);
+            this.lblGesamtS1.TabIndex = 57;
+            this.lblGesamtS1.Text = "0";
             // 
-            // label25
+            // lblObererBlockS1
             // 
-            this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(267, 390);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(13, 15);
-            this.label25.TabIndex = 56;
-            this.label25.Text = "0";
+            this.lblObererBlockS1.AutoSize = true;
+            this.lblObererBlockS1.Location = new System.Drawing.Point(267, 390);
+            this.lblObererBlockS1.Name = "lblObererBlockS1";
+            this.lblObererBlockS1.Size = new System.Drawing.Size(13, 15);
+            this.lblObererBlockS1.TabIndex = 56;
+            this.lblObererBlockS1.Text = "0";
             // 
             // btnWählenZweierS2
             // 
@@ -815,6 +815,7 @@
             this.btnWählenViererpaschS2.TabIndex = 49;
             this.btnWählenViererpaschS2.Text = "Wählen";
             this.btnWählenViererpaschS2.UseVisualStyleBackColor = true;
+            this.btnWählenViererpaschS2.Click += new System.EventHandler(this.btnWählenViererpaschS2_Click);
             // 
             // btnWählenFullHouseS2
             // 
@@ -824,15 +825,17 @@
             this.btnWählenFullHouseS2.TabIndex = 48;
             this.btnWählenFullHouseS2.Text = "Wählen";
             this.btnWählenFullHouseS2.UseVisualStyleBackColor = true;
+            this.btnWählenFullHouseS2.Click += new System.EventHandler(this.btnWählenFullHouseS2_Click);
             // 
-            // btnWählenKleineStraßeS2
+            // btnWählenKleineStrasseS2
             // 
-            this.btnWählenKleineStraßeS2.Location = new System.Drawing.Point(423, 266);
-            this.btnWählenKleineStraßeS2.Name = "btnWählenKleineStraßeS2";
-            this.btnWählenKleineStraßeS2.Size = new System.Drawing.Size(75, 23);
-            this.btnWählenKleineStraßeS2.TabIndex = 47;
-            this.btnWählenKleineStraßeS2.Text = "Wählen";
-            this.btnWählenKleineStraßeS2.UseVisualStyleBackColor = true;
+            this.btnWählenKleineStrasseS2.Location = new System.Drawing.Point(423, 266);
+            this.btnWählenKleineStrasseS2.Name = "btnWählenKleineStrasseS2";
+            this.btnWählenKleineStrasseS2.Size = new System.Drawing.Size(75, 23);
+            this.btnWählenKleineStrasseS2.TabIndex = 47;
+            this.btnWählenKleineStrasseS2.Text = "Wählen";
+            this.btnWählenKleineStrasseS2.UseVisualStyleBackColor = true;
+            this.btnWählenKleineStrasseS2.Click += new System.EventHandler(this.btnWählenKleineStrasseS2_Click);
             // 
             // btnWählenGroßeStraßeS2
             // 
@@ -842,6 +845,7 @@
             this.btnWählenGroßeStraßeS2.TabIndex = 46;
             this.btnWählenGroßeStraßeS2.Text = "Wählen";
             this.btnWählenGroßeStraßeS2.UseVisualStyleBackColor = true;
+            this.btnWählenGroßeStraßeS2.Click += new System.EventHandler(this.btnWählenGroßeStraßeS2_Click);
             // 
             // btnWählenKniffelS2
             // 
@@ -851,6 +855,7 @@
             this.btnWählenKniffelS2.TabIndex = 45;
             this.btnWählenKniffelS2.Text = "Wählen";
             this.btnWählenKniffelS2.UseVisualStyleBackColor = true;
+            this.btnWählenKniffelS2.Click += new System.EventHandler(this.btnWählenKniffelS2_Click);
             // 
             // btnWählenChanceS2
             // 
@@ -860,6 +865,7 @@
             this.btnWählenChanceS2.TabIndex = 44;
             this.btnWählenChanceS2.Text = "Wählen";
             this.btnWählenChanceS2.UseVisualStyleBackColor = true;
+            this.btnWählenChanceS2.Click += new System.EventHandler(this.btnWählenChanceS2_Click);
             // 
             // btnWählenEinserS2
             // 
@@ -939,6 +945,7 @@
             this.btnWählenViererpaschS1.TabIndex = 36;
             this.btnWählenViererpaschS1.Text = "Wählen";
             this.btnWählenViererpaschS1.UseVisualStyleBackColor = true;
+            this.btnWählenViererpaschS1.Click += new System.EventHandler(this.btnWählenViererpaschS1_Click);
             // 
             // btnWählenFullHouseS1
             // 
@@ -948,24 +955,27 @@
             this.btnWählenFullHouseS1.TabIndex = 35;
             this.btnWählenFullHouseS1.Text = "Wählen";
             this.btnWählenFullHouseS1.UseVisualStyleBackColor = true;
+            this.btnWählenFullHouseS1.Click += new System.EventHandler(this.btnWählenFullHouseS1_Click);
             // 
-            // btnWählenKleineStraßeS1
+            // btnWählenKleineStrasseS1
             // 
-            this.btnWählenKleineStraßeS1.Location = new System.Drawing.Point(157, 266);
-            this.btnWählenKleineStraßeS1.Name = "btnWählenKleineStraßeS1";
-            this.btnWählenKleineStraßeS1.Size = new System.Drawing.Size(75, 23);
-            this.btnWählenKleineStraßeS1.TabIndex = 34;
-            this.btnWählenKleineStraßeS1.Text = "Wählen";
-            this.btnWählenKleineStraßeS1.UseVisualStyleBackColor = true;
+            this.btnWählenKleineStrasseS1.Location = new System.Drawing.Point(157, 266);
+            this.btnWählenKleineStrasseS1.Name = "btnWählenKleineStrasseS1";
+            this.btnWählenKleineStrasseS1.Size = new System.Drawing.Size(75, 23);
+            this.btnWählenKleineStrasseS1.TabIndex = 34;
+            this.btnWählenKleineStrasseS1.Text = "Wählen";
+            this.btnWählenKleineStrasseS1.UseVisualStyleBackColor = true;
+            this.btnWählenKleineStrasseS1.Click += new System.EventHandler(this.btnWählenKleineStrasseS1_Click);
             // 
-            // btnWählenGroßeStraßeS1
+            // btnWählenGrosseStrasseS1
             // 
-            this.btnWählenGroßeStraßeS1.Location = new System.Drawing.Point(157, 292);
-            this.btnWählenGroßeStraßeS1.Name = "btnWählenGroßeStraßeS1";
-            this.btnWählenGroßeStraßeS1.Size = new System.Drawing.Size(75, 23);
-            this.btnWählenGroßeStraßeS1.TabIndex = 33;
-            this.btnWählenGroßeStraßeS1.Text = "Wählen";
-            this.btnWählenGroßeStraßeS1.UseVisualStyleBackColor = true;
+            this.btnWählenGrosseStrasseS1.Location = new System.Drawing.Point(157, 292);
+            this.btnWählenGrosseStrasseS1.Name = "btnWählenGrosseStrasseS1";
+            this.btnWählenGrosseStrasseS1.Size = new System.Drawing.Size(75, 23);
+            this.btnWählenGrosseStrasseS1.TabIndex = 33;
+            this.btnWählenGrosseStrasseS1.Text = "Wählen";
+            this.btnWählenGrosseStrasseS1.UseVisualStyleBackColor = true;
+            this.btnWählenGrosseStrasseS1.Click += new System.EventHandler(this.btnWählenGrosseStrasseS1_Click);
             // 
             // btnWählenKniffelS1
             // 
@@ -975,6 +985,7 @@
             this.btnWählenKniffelS1.TabIndex = 32;
             this.btnWählenKniffelS1.Text = "Wählen";
             this.btnWählenKniffelS1.UseVisualStyleBackColor = true;
+            this.btnWählenKniffelS1.Click += new System.EventHandler(this.btnWählenKniffelS1_Click);
             // 
             // btnWählenChanceS1
             // 
@@ -984,6 +995,7 @@
             this.btnWählenChanceS1.TabIndex = 31;
             this.btnWählenChanceS1.Text = "Wählen";
             this.btnWählenChanceS1.UseVisualStyleBackColor = true;
+            this.btnWählenChanceS1.Click += new System.EventHandler(this.btnWählenChanceS1_Click);
             // 
             // btnWählenEinserS1
             // 
@@ -1270,8 +1282,6 @@
             this.Controls.Add(this.lblAktuellerSpieler);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label1);
-            this.MaximumSize = new System.Drawing.Size(890, 850);
-            this.MinimumSize = new System.Drawing.Size(890, 850);
             this.Name = "Kniffel";
             this.Text = "Kniffel";
             this.Load += new System.EventHandler(this.Kniffel_Load);
@@ -1313,10 +1323,10 @@
         private Label label19;
         private Label label20;
         private GroupBox groupBox1;
-        private Label label28;
-        private Label label27;
-        private Label label26;
-        private Label label25;
+        private Label lblBonusS1;
+        private Label lblUntererBlockS1;
+        private Label lblGesamtS1;
+        private Label lblObererBlockS1;
         private Button btnWählenZweierS2;
         private Button btnWählenDreierS2;
         private Button btnWählenViererS2;
@@ -1325,7 +1335,7 @@
         private Button btnWählenDreierpaschS2;
         private Button btnWählenViererpaschS2;
         private Button btnWählenFullHouseS2;
-        private Button btnWählenKleineStraßeS2;
+        private Button btnWählenKleineStrasseS2;
         private Button btnWählenGroßeStraßeS2;
         private Button btnWählenKniffelS2;
         private Button btnWählenChanceS2;
@@ -1338,8 +1348,8 @@
         private Button btnWählenDreierpaschS1;
         private Button btnWählenViererpaschS1;
         private Button btnWählenFullHouseS1;
-        private Button btnWählenKleineStraßeS1;
-        private Button btnWählenGroßeStraßeS1;
+        private Button btnWählenKleineStrasseS1;
+        private Button btnWählenGrosseStrasseS1;
         private Button btnWählenKniffelS1;
         private Button btnWählenChanceS1;
         private Button btnWählenEinserS1;
@@ -1358,34 +1368,35 @@
         private Label lblDreierS2;
         private Label lblZweierS2;
         private Label lblViererS2;
-        private Label lblFünferS2;
+        private Label lblFuenferS2;
         private Label lblSechserS2;
-        private Label label52;
-        private Label label53;
-        private Label label54;
-        private Label label55;
-        private Label label56;
-        private Label label57;
-        private Label label58;
+        private Label lblDreierpaschS2;
+        private Label lblViererpaschS2;
+        private Label lblFullHouseS2;
+        private Label lblKleineStrasseS2;
+        private Label lblGrosseStrasseS2;
+        private Label lblChanceS2;
+        private Label lblKniffelS2;
         private Label lblEinserS2;
         private Label lblDreierS1;
         private Label lblZweierS1;
         private Label lblViererS1;
-        private Label lblFünferS1;
+        private Label lblFuenferS1;
         private Label lblSechserS1;
         private Label lblDreierpaschS1;
-        private Label label41;
-        private Label label40;
-        private Label label39;
-        private Label label38;
-        private Label label37;
-        private Label label36;
+        private Label lblViererpaschS1;
+        private Label lblFullHouseS1;
+        private Label lblKleineStrasseS1;
+        private Label lblGrosseStrasseS1;
+        private Label lblChanceS1;
+        private Label lblKniffelS1;
         private Label lblEinserS1;
-        private Label label30;
-        private Label label31;
-        private Label label32;
-        private Label label33;
+        private Label lblBonusS2;
+        private Label lblUntererBlockS2;
+        private Label lblGesamtS2;
+        private Label lblObererBlockS2;
         private PictureBox pctWuerfel4;
+        private PictureBox pictureBox3;
         private PictureBox pctWuerfel3;
         private PictureBox pctWuerfel1;
         private CheckBox chkHalten4;

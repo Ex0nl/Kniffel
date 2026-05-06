@@ -34,40 +34,41 @@ H:\Desktop\Kniffel Neu\Kniffel\obj\Debug\net6.0-windows\refint\Kniffel.dll
 H:\Desktop\Kniffel Neu\Kniffel\obj\Debug\net6.0-windows\Kniffel.pdb
 H:\Desktop\Kniffel Neu\Kniffel\obj\Debug\net6.0-windows\Kniffel.genruntimeconfig.cache
 H:\Desktop\Kniffel Neu\Kniffel\obj\Debug\net6.0-windows\ref\Kniffel.dll
-H:\Desktop\Git\Kniffel\Kniffel\bin\Debug\net6.0-windows\Kniffel.exe
-H:\Desktop\Git\Kniffel\Kniffel\bin\Debug\net6.0-windows\Kniffel.deps.json
-H:\Desktop\Git\Kniffel\Kniffel\bin\Debug\net6.0-windows\Kniffel.runtimeconfig.json
-H:\Desktop\Git\Kniffel\Kniffel\bin\Debug\net6.0-windows\Kniffel.dll
-H:\Desktop\Git\Kniffel\Kniffel\bin\Debug\net6.0-windows\Kniffel.pdb
-H:\Desktop\Git\Kniffel\Kniffel\obj\Debug\net6.0-windows\Kniffel.csproj.AssemblyReference.cache
-H:\Desktop\Git\Kniffel\Kniffel\obj\Debug\net6.0-windows\Kniffel.Kniffel.resources
-H:\Desktop\Git\Kniffel\Kniffel\obj\Debug\net6.0-windows\Kniffel.Properties.Resources.resources
-H:\Desktop\Git\Kniffel\Kniffel\obj\Debug\net6.0-windows\Kniffel.csproj.GenerateResource.cache
-H:\Desktop\Git\Kniffel\Kniffel\obj\Debug\net6.0-windows\Kniffel.GeneratedMSBuildEditorConfig.editorconfig
-H:\Desktop\Git\Kniffel\Kniffel\obj\Debug\net6.0-windows\Kniffel.AssemblyInfoInputs.cache
-H:\Desktop\Git\Kniffel\Kniffel\obj\Debug\net6.0-windows\Kniffel.AssemblyInfo.cs
-H:\Desktop\Git\Kniffel\Kniffel\obj\Debug\net6.0-windows\Kniffel.csproj.CoreCompileInputs.cache
-H:\Desktop\Git\Kniffel\Kniffel\obj\Debug\net6.0-windows\Kniffel.dll
-H:\Desktop\Git\Kniffel\Kniffel\obj\Debug\net6.0-windows\refint\Kniffel.dll
-H:\Desktop\Git\Kniffel\Kniffel\obj\Debug\net6.0-windows\Kniffel.pdb
-H:\Desktop\Git\Kniffel\Kniffel\obj\Debug\net6.0-windows\Kniffel.genruntimeconfig.cache
-H:\Desktop\Git\Kniffel\Kniffel\obj\Debug\net6.0-windows\ref\Kniffel.dll
-H:\Dokumente\SOFT\Git\Kniffel\Kniffel\bin\Debug\net6.0-windows\Kniffel.exe
-H:\Dokumente\SOFT\Git\Kniffel\Kniffel\bin\Debug\net6.0-windows\Kniffel.deps.json
-H:\Dokumente\SOFT\Git\Kniffel\Kniffel\bin\Debug\net6.0-windows\Kniffel.runtimeconfig.json
-H:\Dokumente\SOFT\Git\Kniffel\Kniffel\bin\Debug\net6.0-windows\Kniffel.dll
-H:\Dokumente\SOFT\Git\Kniffel\Kniffel\bin\Debug\net6.0-windows\Kniffel.pdb
-H:\Dokumente\SOFT\Git\Kniffel\Kniffel\obj\Debug\net6.0-windows\Kniffel.csproj.AssemblyReference.cache
-H:\Dokumente\SOFT\Git\Kniffel\Kniffel\obj\Debug\net6.0-windows\Kniffel.Kniffel.resources
-H:\Dokumente\SOFT\Git\Kniffel\Kniffel\obj\Debug\net6.0-windows\Kniffel.Form2.resources
-H:\Dokumente\SOFT\Git\Kniffel\Kniffel\obj\Debug\net6.0-windows\Kniffel.Properties.Resources.resources
-H:\Dokumente\SOFT\Git\Kniffel\Kniffel\obj\Debug\net6.0-windows\Kniffel.csproj.GenerateResource.cache
-H:\Dokumente\SOFT\Git\Kniffel\Kniffel\obj\Debug\net6.0-windows\Kniffel.GeneratedMSBuildEditorConfig.editorconfig
-H:\Dokumente\SOFT\Git\Kniffel\Kniffel\obj\Debug\net6.0-windows\Kniffel.AssemblyInfoInputs.cache
-H:\Dokumente\SOFT\Git\Kniffel\Kniffel\obj\Debug\net6.0-windows\Kniffel.AssemblyInfo.cs
-H:\Dokumente\SOFT\Git\Kniffel\Kniffel\obj\Debug\net6.0-windows\Kniffel.csproj.CoreCompileInputs.cache
-H:\Dokumente\SOFT\Git\Kniffel\Kniffel\obj\Debug\net6.0-windows\Kniffel.dll
-H:\Dokumente\SOFT\Git\Kniffel\Kniffel\obj\Debug\net6.0-windows\refint\Kniffel.dll
-H:\Dokumente\SOFT\Git\Kniffel\Kniffel\obj\Debug\net6.0-windows\Kniffel.pdb
-H:\Dokumente\SOFT\Git\Kniffel\Kniffel\obj\Debug\net6.0-windows\Kniffel.genruntimeconfig.cache
-H:\Dokumente\SOFT\Git\Kniffel\Kniffel\obj\Debug\net6.0-windows\ref\Kniffel.dll
+H:\Downloads\Kniffel Neu\Kniffel\bin\Debug\net6.0-windows\Kniffel.exe
+H:\Downloads\Kniffel Neu\Kniffel\bin\Debug\net6.0-windows\Kniffel.deps.json
+H:\Downloads\Kniffel Neu\Kniffel\bin\Debug\net6.0-windows\Kniffel.runtimeconfig.json
+H:\Downloads\Kniffel Neu\Kniffel\bin\Debug\net6.0-windows\Kniffel.dll
+H:\Downloads\Kniffel Neu\Kniffel\bin\Debug\net6.0-windows\Kniffel.pdb
+H:\Downloads\Kniffel Neu\Kniffel\obj\Debug\net6.0-windows\Kniffel.csproj.AssemblyReference.cache
+H:\Downloads\Kniffel Neu\Kniffel\obj\Debug\net6.0-windows\Kniffel.Kniffel.resources
+H:\Downloads\Kniffel Neu\Kniffel\obj\Debug\net6.0-windows\Kniffel.Form2.resources
+H:\Downloads\Kniffel Neu\Kniffel\obj\Debug\net6.0-windows\Kniffel.Properties.Resources.resources
+H:\Downloads\Kniffel Neu\Kniffel\obj\Debug\net6.0-windows\Kniffel.csproj.GenerateResource.cache
+H:\Downloads\Kniffel Neu\Kniffel\obj\Debug\net6.0-windows\Kniffel.GeneratedMSBuildEditorConfig.editorconfig
+H:\Downloads\Kniffel Neu\Kniffel\obj\Debug\net6.0-windows\Kniffel.AssemblyInfoInputs.cache
+H:\Downloads\Kniffel Neu\Kniffel\obj\Debug\net6.0-windows\Kniffel.AssemblyInfo.cs
+H:\Downloads\Kniffel Neu\Kniffel\obj\Debug\net6.0-windows\Kniffel.csproj.CoreCompileInputs.cache
+H:\Downloads\Kniffel Neu\Kniffel\obj\Debug\net6.0-windows\Kniffel.dll
+H:\Downloads\Kniffel Neu\Kniffel\obj\Debug\net6.0-windows\refint\Kniffel.dll
+H:\Downloads\Kniffel Neu\Kniffel\obj\Debug\net6.0-windows\Kniffel.pdb
+H:\Downloads\Kniffel Neu\Kniffel\obj\Debug\net6.0-windows\Kniffel.genruntimeconfig.cache
+H:\Downloads\Kniffel Neu\Kniffel\obj\Debug\net6.0-windows\ref\Kniffel.dll
+C:\Users\Exonl\Desktop\Kniffel Neu\Kniffel\bin\Debug\net6.0-windows\Kniffel.exe
+C:\Users\Exonl\Desktop\Kniffel Neu\Kniffel\bin\Debug\net6.0-windows\Kniffel.deps.json
+C:\Users\Exonl\Desktop\Kniffel Neu\Kniffel\bin\Debug\net6.0-windows\Kniffel.runtimeconfig.json
+C:\Users\Exonl\Desktop\Kniffel Neu\Kniffel\bin\Debug\net6.0-windows\Kniffel.dll
+C:\Users\Exonl\Desktop\Kniffel Neu\Kniffel\bin\Debug\net6.0-windows\Kniffel.pdb
+C:\Users\Exonl\Desktop\Kniffel Neu\Kniffel\obj\Debug\net6.0-windows\Kniffel.Kniffel.resources
+C:\Users\Exonl\Desktop\Kniffel Neu\Kniffel\obj\Debug\net6.0-windows\Kniffel.Form2.resources
+C:\Users\Exonl\Desktop\Kniffel Neu\Kniffel\obj\Debug\net6.0-windows\Kniffel.Properties.Resources.resources
+C:\Users\Exonl\Desktop\Kniffel Neu\Kniffel\obj\Debug\net6.0-windows\Kniffel.csproj.GenerateResource.cache
+C:\Users\Exonl\Desktop\Kniffel Neu\Kniffel\obj\Debug\net6.0-windows\Kniffel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Exonl\Desktop\Kniffel Neu\Kniffel\obj\Debug\net6.0-windows\Kniffel.AssemblyInfoInputs.cache
+C:\Users\Exonl\Desktop\Kniffel Neu\Kniffel\obj\Debug\net6.0-windows\Kniffel.AssemblyInfo.cs
+C:\Users\Exonl\Desktop\Kniffel Neu\Kniffel\obj\Debug\net6.0-windows\Kniffel.csproj.CoreCompileInputs.cache
+C:\Users\Exonl\Desktop\Kniffel Neu\Kniffel\obj\Debug\net6.0-windows\Kniffel.sourcelink.json
+C:\Users\Exonl\Desktop\Kniffel Neu\Kniffel\obj\Debug\net6.0-windows\Kniffel.dll
+C:\Users\Exonl\Desktop\Kniffel Neu\Kniffel\obj\Debug\net6.0-windows\refint\Kniffel.dll
+C:\Users\Exonl\Desktop\Kniffel Neu\Kniffel\obj\Debug\net6.0-windows\Kniffel.pdb
+C:\Users\Exonl\Desktop\Kniffel Neu\Kniffel\obj\Debug\net6.0-windows\Kniffel.genruntimeconfig.cache
+C:\Users\Exonl\Desktop\Kniffel Neu\Kniffel\obj\Debug\net6.0-windows\ref\Kniffel.dll
