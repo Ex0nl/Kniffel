@@ -23,7 +23,7 @@ Benutzt:
 
     iwr "URL" -OutFile "K.zip"; Expand-Archive "K.zip" -Dest "Kniffel"; rm "K.zip"
 
-**Linux/macOS (Shell) | Nicht-Kompatibel**
+**Linux/macOS (Shell) | Nicht-Kompatibel (Nativ)**
 > 1. Downloaden der Zip Datei:
 
     url -L -o Kniffel.zip "https://github.com/Ex0nl/Kniffel/releases/download/v1.0-Final-Release/Kniffel-Main-Release-Winx86_64-net6.0.zip"
